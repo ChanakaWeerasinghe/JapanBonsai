@@ -2,23 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hikkaduwa on Liva | Personal blog template</title>
-    <link>https://chanakaweerasinghe.github.io/tags/hikkaduwa/</link>
+    <link>https://srilankasl.com/tags/hikkaduwa/</link>
     <description>Recent content in Hikkaduwa on Liva | Personal blog template</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 29 Oct 2019 10:07:47 +0600</lastBuildDate>
-    
-	<atom:link href="https://chanakaweerasinghe.github.io/tags/hikkaduwa/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+
+	<atom:link href="https://srilankasl.com/tags/hikkaduwa/index.xml" rel="self" type="application/rss+xml" />
+
+
     <item>
       <title>Best Places to Visit in Hikkaduwa</title>
-      <link>https://chanakaweerasinghe.github.io/blog/post-1/</link>
+      <link>https://srilankasl.com/blog/post-1/</link>
       <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
-      
-      <guid>https://chanakaweerasinghe.github.io/blog/post-1/</guid>
+
+      <guid>https://srilankasl.com/blog/post-1/</guid>
       <description>Hikkaduwa Hikkaduwa is a seaside resort town in southwestern Sri Lanka.</description>
     </item>
-    
+
   </channel>
 </rss>

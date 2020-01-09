@@ -2,86 +2,86 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Liva | Personal blog template</title>
-    <link>https://chanakaweerasinghe.github.io/categories/</link>
+    <link>https://srilankasl.com/categories/</link>
     <description>Recent content in Categories on Liva | Personal blog template</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 29 Oct 2019 10:07:47 +0600</lastBuildDate>
-    
-	<atom:link href="https://chanakaweerasinghe.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+
+	<atom:link href="https://srilankasl.com/categories/index.xml" rel="self" type="application/rss+xml" />
+
+
     <item>
       <title>Buddhist</title>
-      <link>https://chanakaweerasinghe.github.io/categories/buddhist/</link>
+      <link>https://srilankasl.com/categories/buddhist/</link>
       <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
-      
-      <guid>https://chanakaweerasinghe.github.io/categories/buddhist/</guid>
+
+      <guid>https://srilankasl.com/categories/buddhist/</guid>
       <description></description>
     </item>
-    
+
     <item>
       <title>Explore Sri Lanka</title>
-      <link>https://chanakaweerasinghe.github.io/categories/explore-sri-lanka/</link>
+      <link>https://srilankasl.com/categories/explore-sri-lanka/</link>
       <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
-      
-      <guid>https://chanakaweerasinghe.github.io/categories/explore-sri-lanka/</guid>
+
+      <guid>https://srilankasl.com/categories/explore-sri-lanka/</guid>
       <description></description>
     </item>
-    
+
     <item>
       <title>Go Language</title>
-      <link>https://chanakaweerasinghe.github.io/categories/go-language/</link>
+      <link>https://srilankasl.com/categories/go-language/</link>
       <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
-      
-      <guid>https://chanakaweerasinghe.github.io/categories/go-language/</guid>
+
+      <guid>https://srilankasl.com/categories/go-language/</guid>
       <description></description>
     </item>
-    
+
     <item>
       <title>HTML</title>
-      <link>https://chanakaweerasinghe.github.io/categories/html/</link>
+      <link>https://srilankasl.com/categories/html/</link>
       <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
-      
-      <guid>https://chanakaweerasinghe.github.io/categories/html/</guid>
+
+      <guid>https://srilankasl.com/categories/html/</guid>
       <description></description>
     </item>
-    
+
     <item>
       <title>HTML &amp; CSS</title>
-      <link>https://chanakaweerasinghe.github.io/categories/html-css/</link>
+      <link>https://srilankasl.com/categories/html-css/</link>
       <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
-      
-      <guid>https://chanakaweerasinghe.github.io/categories/html-css/</guid>
+
+      <guid>https://srilankasl.com/categories/html-css/</guid>
       <description></description>
     </item>
-    
+
     <item>
       <title>Programming Language</title>
-      <link>https://chanakaweerasinghe.github.io/categories/programming-language/</link>
+      <link>https://srilankasl.com/categories/programming-language/</link>
       <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
-      
-      <guid>https://chanakaweerasinghe.github.io/categories/programming-language/</guid>
+
+      <guid>https://srilankasl.com/categories/programming-language/</guid>
       <description></description>
     </item>
-    
+
     <item>
       <title>Python</title>
-      <link>https://chanakaweerasinghe.github.io/categories/python/</link>
+      <link>https://srilankasl.com/categories/python/</link>
       <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
-      
-      <guid>https://chanakaweerasinghe.github.io/categories/python/</guid>
+
+      <guid>https://srilankasl.com/categories/python/</guid>
       <description></description>
     </item>
-    
+
     <item>
       <title>Web Design</title>
-      <link>https://chanakaweerasinghe.github.io/categories/web-design/</link>
+      <link>https://srilankasl.com/categories/web-design/</link>
       <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
-      
-      <guid>https://chanakaweerasinghe.github.io/categories/web-design/</guid>
+
+      <guid>https://srilankasl.com/categories/web-design/</guid>
       <description></description>
     </item>
-    
+
   </channel>
 </rss>

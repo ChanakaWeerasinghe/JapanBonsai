@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Buddhist on Liva | Personal blog template</title>
-    <link>https://chanakaweerasinghe.github.io/categories/buddhist/</link>
+    <link>https://srilankasl.com/categories/buddhist/</link>
     <description>Recent content in Buddhist on Liva | Personal blog template</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 29 Oct 2019 10:07:47 +0600</lastBuildDate>
-    
-	<atom:link href="https://chanakaweerasinghe.github.io/categories/buddhist/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+
+	<atom:link href="https://srilankasl.com/categories/buddhist/index.xml" rel="self" type="application/rss+xml" />
+
+
     <item>
       <title>ශ්‍රී ලංකාවේ බුද්ධාගම</title>
-      <link>https://chanakaweerasinghe.github.io/blog/post-14/</link>
+      <link>https://srilankasl.com/blog/post-14/</link>
       <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
-      
-      <guid>https://chanakaweerasinghe.github.io/blog/post-14/</guid>
+
+      <guid>https://srilankasl.com/blog/post-14/</guid>
       <description>Emphasis ඉතිහාසය
 වංශකථාවලට අනුව, අශෝක අධිරාජ්‍යයාගේ පුත්‍රයා වූ මහින්ද තෙර විසින් ක්‍රි.</description>
     </item>
-    
+
   </channel>
 </rss>

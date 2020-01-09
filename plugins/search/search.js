@@ -26,7 +26,6 @@ if(searchQuery){
 
 
 function executeSearch(searchQuery){
-  console.log("searchQuery",searchQuery);
   $.getJSON( indexURL, function( data ) {
     var pages = data;
     var fuse = new Fuse(pages, fuseOptions);

@@ -7,81 +7,81 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 29 Oct 2019 10:07:47 +0600</lastBuildDate>
-
+    
 	<atom:link href="https://srilankasl.com/categories/index.xml" rel="self" type="application/rss+xml" />
-
-
+    
+    
     <item>
       <title>Buddhist</title>
       <link>https://srilankasl.com/categories/buddhist/</link>
       <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
-
+      
       <guid>https://srilankasl.com/categories/buddhist/</guid>
       <description></description>
     </item>
-
+    
     <item>
       <title>Explore Sri Lanka</title>
       <link>https://srilankasl.com/categories/explore-sri-lanka/</link>
       <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
-
+      
       <guid>https://srilankasl.com/categories/explore-sri-lanka/</guid>
       <description></description>
     </item>
-
+    
     <item>
       <title>Go Language</title>
       <link>https://srilankasl.com/categories/go-language/</link>
       <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
-
+      
       <guid>https://srilankasl.com/categories/go-language/</guid>
       <description></description>
     </item>
-
+    
     <item>
       <title>HTML</title>
       <link>https://srilankasl.com/categories/html/</link>
       <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
-
+      
       <guid>https://srilankasl.com/categories/html/</guid>
       <description></description>
     </item>
-
+    
     <item>
       <title>HTML &amp; CSS</title>
       <link>https://srilankasl.com/categories/html-css/</link>
       <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
-
+      
       <guid>https://srilankasl.com/categories/html-css/</guid>
       <description></description>
     </item>
-
+    
     <item>
       <title>Programming Language</title>
       <link>https://srilankasl.com/categories/programming-language/</link>
       <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
-
+      
       <guid>https://srilankasl.com/categories/programming-language/</guid>
       <description></description>
     </item>
-
+    
     <item>
       <title>Python</title>
       <link>https://srilankasl.com/categories/python/</link>
       <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
-
+      
       <guid>https://srilankasl.com/categories/python/</guid>
       <description></description>
     </item>
-
+    
     <item>
       <title>Web Design</title>
       <link>https://srilankasl.com/categories/web-design/</link>
       <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
-
+      
       <guid>https://srilankasl.com/categories/web-design/</guid>
       <description></description>
     </item>
-
+    
   </channel>
 </rss>

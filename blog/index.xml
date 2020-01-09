@@ -129,6 +129,15 @@
     </item>
     
     <item>
+      <title>What is pipe for in rxJS</title>
+      <link>https://chanakaweerasinghe.github.io/blog/post-15/</link>
+      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
+      
+      <guid>https://chanakaweerasinghe.github.io/blog/post-15/</guid>
+      <description>RxJS RxJS is a library for reactive programming using Observables, to make it easier to compose asynchronous or callback-based code.</description>
+    </item>
+    
+    <item>
       <title>ශ්‍රී ලංකාවේ බුද්ධාගම</title>
       <link>https://chanakaweerasinghe.github.io/blog/post-14/</link>
       <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
@@ -136,15 +145,6 @@
       <guid>https://chanakaweerasinghe.github.io/blog/post-14/</guid>
       <description>Emphasis ඉතිහාසය
 වංශකථාවලට අනුව, අශෝක අධිරාජ්‍යයාගේ පුත්‍රයා වූ මහින්ද තෙර විසින් ක්‍රි.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://chanakaweerasinghe.github.io/blog/post-15/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://chanakaweerasinghe.github.io/blog/post-15/</guid>
-      <description>title: &amp;ldquo;What is pipe for in rxJS&amp;rdquo; date: 2019-10-29T10:07:47+06:00 draft: false</description>
     </item>
     
     <item>

@@ -5,7 +5,7 @@
 
   <!-- mobile responsive meta -->
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="This is meta description">
+  <meta name="description" content="All this looks cool but its still very verbose. Well, thanks to RxJS 5.5 observables now have a pipe method available on the instances allowing you to clean up the code above by calling pipe with all our pure functions operators: ">
   <meta name="author" content="Chanaka Weerasinghe">
   <meta name="generator" content="Hugo 0.62.2" />
 
@@ -125,45 +125,38 @@
     <div class="row">
       <div class="col-lg-8 mx-auto">
         
-        <h2></h2>
+        <a href="/categories/programming-language"
+          class="text-primary">Programming language</a>
+        
+        <h2>What is pipe for in rxJS</h2>
         <div class="mb-3 post-meta">
           <span>By Chanaka Weerasinghe</span>
           
           <span class="border-bottom border-primary px-2 mx-1"></span>
-          <span>01 January 0001</span>
+          <span>29 October 2019</span>
           
         </div>
         
+        <img src="https://chanakaweerasinghe.github.io/images/post/post-15.jpg" class="img-fluid w-100 mb-4" alt="What is pipe for in rxJS">
+        
         <div class="content mb-5">
-          <p>title: &ldquo;What is pipe for in rxJS&rdquo;
-date: 2019-10-29T10:07:47+06:00
-draft: false</p>
-<h1 id="post-thumb">post thumb</h1>
-<p>image: &ldquo;<a href="https://i.morioh.com/2019/11/18/396e1bf08ef1.jpg%22">https://i.morioh.com/2019/11/18/396e1bf08ef1.jpg&quot;</a></p>
-<h1 id="meta-description">meta description</h1>
-<p>description: &ldquo;this is meta description&rdquo;</p>
-<h1 id="taxonomies">taxonomies</h1>
-<p>categories:</p>
-<ul>
-<li>&ldquo;Type Script&rdquo;
-tags:</li>
-<li>&ldquo;Js&rdquo;</li>
-<li>&ldquo;Game&rdquo;</li>
-<li>&ldquo;React&rdquo;</li>
-<li>&ldquo;Python&rdquo;</li>
-<li>&ldquo;New&rdquo;</li>
-</ul>
-<h1 id="rxjs">Rxjs</h1>
-<p>type: &ldquo;REACTIVE EXTENSIONS LIBRARY FOR JAVASCRIPT&rdquo;</p>
-<h5 id="emphasis">Emphasis</h5>
-<p>RxJS is a library for reactive programming using Observables, to make it easier to compose asynchronous or callback-based code. This project is a rewrite of Reactive-Extensions/RxJS with better performance, better modularity, better debuggable call stacks, while staying mostly backwards compatible, with some breaking changes that reduce the API surface</p>
+          <!-- raw HTML omitted -->
+<h5 id="rxjs">RxJS</h5>
+<p>RxJS is a library for reactive programming using <strong>Observables</strong>, to make it easier to compose asynchronous or callback-based code. This project is a rewrite of <strong>Reactive-Extensions/RxJS</strong> with better performance, better modularity, better debuggable call stacks, while staying mostly backwards compatible, with some breaking changes that reduce the API surface</p>
+<!-- raw HTML omitted -->
 <h5 id="link">Link</h5>
-<p><a href="https://rxjs-dev.firebaseapp.com/">Official Site</a></p>
-<p><a href="https://stackoverflow.com/questions/48668701/what-is-pipe-for-in-rxjs/56881298#56881298" title="Google's Homepage">Stack Overflow Question Link</a></p>
+<p><a href="https://stackoverflow.com/questions/48668701/what-is-pipe-for-in-rxjs/56881298#56881298">Stack Overflow Question</a></p>
+<p><a href="https://rxjs-dev.firebaseapp.com/" title="rxjs's Homepage">Official Site</a></p>
+<!-- raw HTML omitted -->
 <h5 id="the-pipe-method">The pipe method</h5>
 <p>All this looks cool but its still very verbose. Well, thanks to RxJS 5.5 observables now have a pipe method available on the instances allowing you to clean up the code above by calling pipe with all our pure functions operators:</p>
 <h5 id="what-does-that-mean">What does that mean?</h5>
-<p>That means that any operators you previously used on the instance of observable are available as pure functions under rxjs/operators. This makes building a composition of operators or re-using operators becomes really easy, without having to resort to all sorts of programming gymnastics where you have to create a custom observable extending Observable, then overwrite lift just to make your own custom thing.</p>
+<p>What does that mean?
+That means that any operators you previously used on the instance of observable are available as pure functions under rxjs/operators. This makes building a composition of operators or re-using operators becomes really easy, without having to resort to all sorts of programming gymnastics where you have to create a custom observable extending Observable, then overwrite lift just to make your own custom thing.
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam nihil enim maxime corporis cumque totam aliquid nam sint inventore optio modi neque laborum officiis necessitatibus, facilis placeat pariatur! Voluptatem, sed harum pariatur adipisci voluptates voluptatum cumque, porro sint minima similique magni perferendis fuga! Optio vel ipsum excepturi tempore reiciendis id quidem? Vel in, doloribus debitis nesciunt fugit sequi magnam accusantium modi neque quis, vitae velit, pariatur harum autem a! Velit impedit atque maiores animi possimus asperiores natus repellendus excepturi sint architecto eligendi non, omnis nihil. Facilis, doloremque illum. Fugit optio laborum minus debitis natus illo perspiciatis corporis voluptatum rerum laboriosam.</p>
+<!-- raw HTML omitted -->
+<h5 id="example">Example</h5>
+<p>Inline <code>typescript</code></p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#66d9ef">const</span> { <span style="color:#a6e22e">Observable</span> } <span style="color:#f92672">=</span> <span style="color:#a6e22e">require</span>(<span style="color:#e6db74">&#39;rxjs/Rx&#39;</span>)
 <span style="color:#66d9ef">const</span> { <span style="color:#a6e22e">filter</span>, <span style="color:#a6e22e">map</span>, <span style="color:#a6e22e">reduce</span>,  } <span style="color:#f92672">=</span> <span style="color:#a6e22e">require</span>(<span style="color:#e6db74">&#39;rxjs/operators&#39;</span>)
 <span style="color:#66d9ef">const</span> { <span style="color:#a6e22e">pipe</span> } <span style="color:#f92672">=</span> <span style="color:#a6e22e">require</span>(<span style="color:#e6db74">&#39;rxjs/Rx&#39;</span>)
@@ -174,33 +167,11 @@ tags:</li>
 <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">source$</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">Observable</span>.<span style="color:#a6e22e">range</span>(<span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">10</span>)
 
 <span style="color:#a6e22e">source$</span>.<span style="color:#a6e22e">pipe</span>(
- <span style="color:#a6e22e">filterOutEvens</span>, 
- <span style="color:#a6e22e">doubleBy</span>(<span style="color:#ae81ff">2</span>), 
- <span style="color:#a6e22e">sum</span>)
- .<span style="color:#a6e22e">subscribe</span>(<span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>); <span style="color:#75715e">// 50
-</span></code></pre></div><h5 id="pipe">Pipe</h5>
-<p>pipe is the star of this article. Unlike map, which is an operator, pipe is a method on Observable which is used for composing operators. pipe was introduced to RxJS in v5.5 to take code that looked like this:
-of(1,2,3).map(x =&gt; x + 1).filter(x =&gt; x &gt; 2);
-and turn it into this</p>
-<h5 id="code-and-syntax-highlighting">Code and Syntax Highlighting</h5>
-<p>this is  <code>code</code></p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#75715e">// RxJS v6+
-</span><span style="color:#75715e"></span><span style="color:#66d9ef">import</span> { <span style="color:#a6e22e">map</span>, <span style="color:#a6e22e">concatAll</span> } <span style="color:#a6e22e">from</span> <span style="color:#e6db74">&#39;rxjs/operators&#39;</span>;
-<span style="color:#66d9ef">import</span> { <span style="color:#66d9ef">of</span>, <span style="color:#a6e22e">interval</span> } <span style="color:#a6e22e">from</span> <span style="color:#e6db74">&#39;rxjs&#39;</span>;
-
-<span style="color:#75715e">//emit a value every 2 seconds
-</span><span style="color:#75715e"></span><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">source</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">interval</span>(<span style="color:#ae81ff">2000</span>);
-<span style="color:#66d9ef">const</span> <span style="color:#a6e22e">example</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">source</span>.<span style="color:#a6e22e">pipe</span>(
-  <span style="color:#75715e">//for demonstration, add 10 to and return as observable
-</span><span style="color:#75715e"></span>  <span style="color:#a6e22e">map</span>(<span style="color:#a6e22e">val</span> =&gt; <span style="color:#66d9ef">of</span>(<span style="color:#a6e22e">val</span> <span style="color:#f92672">+</span> <span style="color:#ae81ff">10</span>)),
-  <span style="color:#75715e">//merge values from inner observable
-</span><span style="color:#75715e"></span>  <span style="color:#a6e22e">concatAll</span>()
-);
-<span style="color:#75715e">//output: &#39;Example with Basic Observable 10&#39;, &#39;Example with Basic Observable 11&#39;...
-</span><span style="color:#75715e"></span><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">subscribe</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">example</span>.<span style="color:#a6e22e">subscribe</span>(<span style="color:#a6e22e">val</span> =&gt;
-  <span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#e6db74">&#39;Example with Basic Observable:&#39;</span>, <span style="color:#a6e22e">val</span>)
-);
-</code></pre></div><h5 id="youtube-video">Youtube video</h5>
+  <span style="color:#a6e22e">filterOutEvens</span>, 
+  <span style="color:#a6e22e">doubleBy</span>(<span style="color:#ae81ff">2</span>), 
+  <span style="color:#a6e22e">sum</span>)
+  .<span style="color:#a6e22e">subscribe</span>(<span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>); <span style="color:#75715e">// 50
+</span></code></pre></div><h5 id="youtube-video">Youtube video</h5>
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
   <iframe src="https://www.youtube.com/embed/C0DPdy98e4c" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>

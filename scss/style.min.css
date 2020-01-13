@@ -123,6 +123,7 @@ body {
 img {
   vertical-align: middle;
   border: 0
+  width: 80% !important;
 }
 
 a, a:hover, a:focus {
@@ -673,6 +674,4 @@ a.bg-primary:focus, a.bg-primary:hover, button.bg-primary:focus, button.bg-prima
   border-radius: 3px;
   color: #222
 }
-.img {
-  width: 80%;
-}
+

@@ -673,6 +673,6 @@ a.bg-primary:focus, a.bg-primary:hover, button.bg-primary:focus, button.bg-prima
   border-radius: 3px;
   color: #222
 }
-img {
-  width: 100%;
+.img {
+  width: 80%;
 }

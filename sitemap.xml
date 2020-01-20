@@ -138,11 +138,6 @@
   </url>
   
   <url>
-    <loc>https://srilankasl.com/blog/post-8/</loc>
-    <lastmod>2019-10-29T10:07:47+06:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://srilankasl.com/blog/post-9/</loc>
     <lastmod>2019-10-29T10:07:47+06:00</lastmod>
   </url>
@@ -208,12 +203,12 @@
   </url>
   
   <url>
-    <loc>https://srilankasl.com/categories/sri-lanka/</loc>
+    <loc>https://srilankasl.com/tags/sri-lanka/</loc>
     <lastmod>2019-10-29T10:07:47+06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://srilankasl.com/tags/sri-lanka/</loc>
+    <loc>https://srilankasl.com/categories/sri-lanka/</loc>
     <lastmod>2019-10-29T10:07:47+06:00</lastmod>
   </url>
   
@@ -238,12 +233,12 @@
   </url>
   
   <url>
-    <loc>https://srilankasl.com/tags/travel/</loc>
+    <loc>https://srilankasl.com/categories/travel/</loc>
     <lastmod>2019-10-29T10:07:47+06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://srilankasl.com/categories/travel/</loc>
+    <loc>https://srilankasl.com/tags/travel/</loc>
     <lastmod>2019-10-29T10:07:47+06:00</lastmod>
   </url>
   
@@ -274,6 +269,11 @@
   
   <url>
     <loc>https://srilankasl.com/tags/%E0%B6%9A%E0%B6%A8%E0%B7%92%E0%B6%B1%E0%B6%BA%E0%B6%9A%E0%B7%8A/</loc>
+    <lastmod>2019-10-29T10:07:47+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://srilankasl.com/blog/post-8/</loc>
     <lastmod>2019-10-29T10:07:47+06:00</lastmod>
   </url>
   

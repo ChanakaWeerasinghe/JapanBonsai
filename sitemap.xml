@@ -73,12 +73,12 @@
   </url>
   
   <url>
-    <loc>https://srilankasl.com/categories/buddhist/</loc>
+    <loc>https://srilankasl.com/tags/buddhist/</loc>
     <lastmod>2019-10-29T10:07:47+06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://srilankasl.com/tags/buddhist/</loc>
+    <loc>https://srilankasl.com/categories/buddhist/</loc>
     <lastmod>2019-10-29T10:07:47+06:00</lastmod>
   </url>
   
@@ -113,12 +113,12 @@
   </url>
   
   <url>
-    <loc>https://srilankasl.com/tags/git/</loc>
+    <loc>https://srilankasl.com/categories/git/</loc>
     <lastmod>2019-10-29T10:07:47+06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://srilankasl.com/categories/git/</loc>
+    <loc>https://srilankasl.com/tags/git/</loc>
     <lastmod>2019-10-29T10:07:47+06:00</lastmod>
   </url>
   
@@ -159,16 +159,6 @@
   
   <url>
     <loc>https://srilankasl.com/blog/post-10/</loc>
-    <lastmod>2019-10-29T10:07:47+06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://srilankasl.com/blog/post-6/</loc>
-    <lastmod>2019-10-29T10:07:47+06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://srilankasl.com/categories/html/</loc>
     <lastmod>2019-10-29T10:07:47+06:00</lastmod>
   </url>
   
@@ -233,12 +223,12 @@
   </url>
   
   <url>
-    <loc>https://srilankasl.com/tags/sri-lanka/</loc>
+    <loc>https://srilankasl.com/categories/sri-lanka/</loc>
     <lastmod>2019-10-29T10:07:47+06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://srilankasl.com/categories/sri-lanka/</loc>
+    <loc>https://srilankasl.com/tags/sri-lanka/</loc>
     <lastmod>2019-10-29T10:07:47+06:00</lastmod>
   </url>
   
@@ -289,6 +279,16 @@
   
   <url>
     <loc>https://srilankasl.com/blog/post-15/</loc>
+    <lastmod>2019-10-29T10:07:47+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://srilankasl.com/tags/%E0%B6%86%E0%B6%AD%E0%B6%AD%E0%B7%92%E0%B6%BA/</loc>
+    <lastmod>2019-10-29T10:07:47+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://srilankasl.com/blog/post-6/</loc>
     <lastmod>2019-10-29T10:07:47+06:00</lastmod>
   </url>
   
@@ -344,6 +344,11 @@
   
   <url>
     <loc>https://srilankasl.com/categories/%E0%B6%B6%E0%B7%99%E0%B7%84%E0%B7%99%E0%B6%AD%E0%B7%8A/</loc>
+    <lastmod>2019-10-29T10:07:47+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://srilankasl.com/categories/%E0%B6%B8%E0%B7%92%E0%B6%AE%E0%B7%8A%E0%B6%BA%E0%B7%8F%E0%B7%80%E0%B6%B1%E0%B7%8A/</loc>
     <lastmod>2019-10-29T10:07:47+06:00</lastmod>
   </url>
   

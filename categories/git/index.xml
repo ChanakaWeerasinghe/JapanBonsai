@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>git on Chana&#39;s | Personal blog</title>
+    <link>https://srilankasl.com/categories/git/</link>
+    <description>Recent content in git on Chana&#39;s | Personal blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 29 Oct 2019 10:07:47 +0600</lastBuildDate>
+    
+	<atom:link href="https://srilankasl.com/categories/git/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>How do I delete a Git branch locally and remotely?</title>
+      <link>https://srilankasl.com/blog/post-10/</link>
+      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
+      
+      <guid>https://srilankasl.com/blog/post-10/</guid>
+      <description>Delete Local Branch Note most cases the remote name is origin.</description>
+    </item>
+    
+  </channel>
+</rss>

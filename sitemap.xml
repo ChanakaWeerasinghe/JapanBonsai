@@ -3,6 +3,36 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://srilankasl.com/categories/</loc>
+    <lastmod>2020-01-25T10:07:47+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://srilankasl.com/</loc>
+    <lastmod>2020-01-25T10:07:47+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://srilankasl.com/categories/computing/</loc>
+    <lastmod>2020-01-25T10:07:47+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://srilankasl.com/tags/distributed-computing/</loc>
+    <lastmod>2020-01-25T10:07:47+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://srilankasl.com/tags/</loc>
+    <lastmod>2020-01-25T10:07:47+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://srilankasl.com/blog/what_is_a_distributed_system/</loc>
+    <lastmod>2020-01-25T10:07:47+06:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://srilankasl.com/about/about/</loc>
     <lastmod>2019-10-29T13:49:23+06:00</lastmod>
   </url>
@@ -14,11 +44,6 @@
   
   <url>
     <loc>https://srilankasl.com/blog/</loc>
-    <lastmod>2019-10-29T13:49:23+06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://srilankasl.com/</loc>
     <lastmod>2019-10-29T13:49:23+06:00</lastmod>
   </url>
   
@@ -39,11 +64,6 @@
   
   <url>
     <loc>https://srilankasl.com/blog/post-4/</loc>
-    <lastmod>2019-10-29T10:07:47+06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://srilankasl.com/blog/post-12/</loc>
     <lastmod>2019-10-29T10:07:47+06:00</lastmod>
   </url>
   
@@ -83,11 +103,6 @@
   </url>
   
   <url>
-    <loc>https://srilankasl.com/categories/</loc>
-    <lastmod>2019-10-29T10:07:47+06:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://srilankasl.com/tags/dalada-maligawa/</loc>
     <lastmod>2019-10-29T10:07:47+06:00</lastmod>
   </url>
@@ -98,12 +113,12 @@
   </url>
   
   <url>
-    <loc>https://srilankasl.com/tags/food/</loc>
+    <loc>https://srilankasl.com/categories/food/</loc>
     <lastmod>2019-10-29T10:07:47+06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://srilankasl.com/categories/food/</loc>
+    <loc>https://srilankasl.com/tags/food/</loc>
     <lastmod>2019-10-29T10:07:47+06:00</lastmod>
   </url>
   
@@ -113,12 +128,12 @@
   </url>
   
   <url>
-    <loc>https://srilankasl.com/categories/git/</loc>
+    <loc>https://srilankasl.com/tags/git/</loc>
     <lastmod>2019-10-29T10:07:47+06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://srilankasl.com/tags/git/</loc>
+    <loc>https://srilankasl.com/categories/git/</loc>
     <lastmod>2019-10-29T10:07:47+06:00</lastmod>
   </url>
   
@@ -223,17 +238,12 @@
   </url>
   
   <url>
-    <loc>https://srilankasl.com/categories/sri-lanka/</loc>
-    <lastmod>2019-10-29T10:07:47+06:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://srilankasl.com/tags/sri-lanka/</loc>
     <lastmod>2019-10-29T10:07:47+06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://srilankasl.com/tags/</loc>
+    <loc>https://srilankasl.com/categories/sri-lanka/</loc>
     <lastmod>2019-10-29T10:07:47+06:00</lastmod>
   </url>
   

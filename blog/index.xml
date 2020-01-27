@@ -90,7 +90,7 @@
       
       <guid>https://srilankasl.com/blog/stackoverflow/ionic_angular_uncaught_referenceerror_global_is_not_defined/</guid>
       <description>Working Example include this code
-(window as any).global = window; In your polyfills.</description>
+ (window as any).global = window; In your polyfills.</description>
     </item>
     
     <item>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Computingg on Dope| It&#39;s Our blog</title>
+    <link>https://srilankasl.com/categories/computingg/</link>
+    <description>Recent content in Computingg on Dope| It&#39;s Our blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 29 Oct 2019 10:07:47 +0600</lastBuildDate>
+    
+	<atom:link href="https://srilankasl.com/categories/computingg/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Programmatically navigate using react router</title>
+      <link>https://srilankasl.com/blog/stackoverflow/programmatically_navigate_using_react_router/</link>
+      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
+      
+      <guid>https://srilankasl.com/blog/stackoverflow/programmatically_navigate_using_react_router/</guid>
+      <description>Heading 1 Heading 2 Heading 3 Heading 4 Heading 5 Heading 6 React Router v5.</description>
+    </item>
+    
+  </channel>
+</rss>

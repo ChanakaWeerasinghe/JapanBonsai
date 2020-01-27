@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en-us"><head>
+  <meta charset="utf-8">
+  <title>Dope| It&#39;s Our blog</title>
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="Use composition and render a &lt;Route&gt; Use the context. React Router is mostly a wrapper around the history library. history handles interaction with the browser&#39;s window. history for you with its browser and hash histories. It also provides a memory history which is useful for environments that don&#39;t have a global history. This is particularly useful in mobile app development (react-native) and unit testing with Node.">
+  <meta name="author" content="Chanaka Weerasinghe">
+  <meta name="generator" content="Hugo 0.62.2" />
+
+  <!-- plugins -->
+  
+  <link rel="stylesheet" href="https://srilankasl.com/plugins/bootstrap/bootstrap.min.css ">
+  
+  <link rel="stylesheet" href="https://srilankasl.com/plugins/slick/slick.css ">
+  
+  <link rel="stylesheet" href="https://srilankasl.com/plugins/themify-icons/themify-icons.css ">
+  
+  <link rel="stylesheet" href="https://srilankasl.com/plugins/venobox/venobox.css ">
+  
+
+  <!-- Main Stylesheet -->
+  
+  <link rel="stylesheet" href="https://srilankasl.com/scss/style.min.css" media="screen">
+
+  <!--Favicon-->
+  <link rel="shortcut icon" href="https://srilankasl.com/images/favicon.png " type="image/x-icon">
+  <link rel="icon" href="https://srilankasl.com/images/favicon.png " type="image/x-icon">
+
+</head>
+<body>
+<!-- preloader start -->
+<div class="preloader">
+  
+</div>
+<!-- preloader end -->
+<!-- navigation -->
+<header class="navigation">
+  <div class="container">
+    
+    <nav class="navbar navbar-expand-lg navbar-white bg-transparent border-bottom">
+      <a class="navbar-brand mobile-view" href="https://srilankasl.com/"><img class="img-fluid"
+          src="https://srilankasl.com/images/logo.png" alt="Dope| It&#39;s Our blog"></a>
+      <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation">
+        <i class="ti-menu h3"></i>
+      </button>
+
+      <div class="collapse navbar-collapse text-center" id="navigation">
+        <div class="desktop-view">
+          <ul class="navbar-nav mr-auto">
+            
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="ti-facebook"></i></a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="ti-twitter-alt"></i></a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="ti-instagram"></i></a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="ti-github"></i></a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="ti-linkedin"></i></a>
+            </li>
+            
+          </ul>
+        </div>
+
+        <a class="navbar-brand mx-auto desktop-view" href="https://srilankasl.com/"><img class="img-fluid"
+            src="https://srilankasl.com/images/logo.png" alt="Dope| It&#39;s Our blog"></a>
+
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="https://srilankasl.com/"> Home </a>
+          </li>
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://srilankasl.com/about/about">About</a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://srilankasl.com/blog">Post</a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://srilankasl.com/contact">Contact</a>
+          </li>
+          
+          
+        </ul>
+
+        
+        <!-- search -->
+        <div class="search px-4">
+          <button id="searchOpen" class="search-btn"><i class="ti-search"></i></button>
+          <div class="search-wrapper">
+            <form action="https://srilankasl.com//search" class="h-100">
+              <input class="search-box px-4" id="search-query" name="s" type="search" placeholder="Type & Hit Enter...">
+            </form>
+            <button id="searchClose" class="search-close"><i class="ti-close text-dark"></i></button>
+          </div>
+        </div>
+        
+
+        
+      </div>
+    </nav>
+  </div>
+</header>
+<!-- /navigation -->
+
+<section class="section-sm">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 mx-auto">
+        
+        <a href="/categories/computingg"
+          class="text-primary">Computingg</a>
+        
+        <h2>Programmatically navigate using react router</h2>
+        <div class="mb-3 post-meta">
+          <span>By Chanaka Weerasinghe</span>
+          
+          <span class="border-bottom border-primary px-2 mx-1"></span>
+          <span>29 October 2019</span>
+          
+        </div>
+        
+        <img src="https://srilankasl.com/images/post/computing/react.png" class="img-fluid w-100 mb-4" alt="Programmatically navigate using react router">
+        
+        <div class="content mb-5">
+          <h1 id="heading-1">Heading 1</h1>
+<h2 id="heading-2">Heading 2</h2>
+<h3 id="heading-3">Heading 3</h3>
+<h4 id="heading-4">Heading 4</h4>
+<h5 id="heading-5">Heading 5</h5>
+<h6 id="heading-6">Heading 6</h6>
+<!-- raw HTML omitted -->
+<h5 id="react-router-v510-with-hooks">React Router v5.1.0 with hooks</h5>
+<p>There is a new use History hook in React Router &gt;5.1.0 if if you are using React &gt;16.8.0 and functional components.</p>
+<pre><code>import { useHistory } from &quot;react-router-dom&quot;;
+
+function HomeButton() {
+  const history = useHistory();
+
+  function handleClick() {
+    history.push(&quot;/home&quot;);
+  }
+
+  return (
+    &lt;button type=&quot;button&quot; onClick={handleClick}&gt;
+      Go home
+    &lt;/button&gt;
+  );
+}
+</code></pre><p>React Router v4</p>
+<p>With v4 of React Router, there are three approaches that you can take to programmatic routing within components.</p>
+<p>Use the withRouter higher-order component.
+Use composition and render a <!-- raw HTML omitted -->
+Use the context.
+React Router is mostly a wrapper around the history library.
+history handles interaction with the browser's window.
+history for you with its browser and hash histories.
+It also provides a memory history which is useful for environments that don't have a global history. This is particularly useful in mobile app development (react-native) and unit testing with Node.</p>
+<p>A history instance has two methods for navigating:-push and replace.
+If you think of the history as an array of visited locations,
+push will add a new location to the array and replace will replace the current location in the array with the new one.
+Typically you will want to use the push method when you are navigating.</p>
+<p>In earlier versions of React Router,
+you had to create your own history instance,
+but in v4 the <code>&lt;BrowserRouter&gt;</code>, <code>&lt;HashRouter&gt;</code>, and <code>&lt;MemoryRouter&gt;</code> components will create a browser, hash, and memory instances for you. React Router makes the properties and methods of the history instance associated with your router available through the context, under the router object.</p>
+<ol>
+<li>Use the withRouter higher-order component
+The withRouter higher-order component will inject the history object as a prop of the component. This allows you to access the push and replace methods without having to deal with the context.</li>
+</ol>
+<pre><code>import { withRouter } from 'react-router-dom'
+// this also works with react-router-native
+
+const Button = withRouter(({ history }) =&gt; (
+  &lt;button
+    type='button'
+    onClick={() =&gt; { history.push('/new-location') }}
+  &gt;
+    Click Me!
+  &lt;/button&gt;
+))
+</code></pre><ol start="2">
+<li>Use composition and render a <!-- raw HTML omitted --></li>
+</ol>
+<pre><code>The &lt;Route&gt; component isn't just for matching locations. You can render a pathless route and it will always match the current location. The &lt;Route&gt; component passes the same props as withRouter, so you will be able to access the history methods through the history prop.
+
+import { Route } from 'react-router-dom'
+
+const Button = () =&gt; (
+  &lt;Route render={({ history}) =&gt; (
+    &lt;button
+      type='button'
+      onClick={() =&gt; { history.push('/new-location') }}
+    &gt;
+      Click Me!
+    &lt;/button&gt;
+  )} /&gt;
+)
+</code></pre><ol start="3">
+<li>Use the context</li>
+</ol>
+<p>But you probably should not</p>
+<p>The last option is one that you should only use if you feel comfortable working with React's context model. Although context is an option, it should be stressed that context is an unstable API and React has a section Why Not To Use Context in their documentation. So use at your own risk!</p>
+<pre><code>const Button = (props, context) =&gt; (
+  &lt;button
+    type='button'
+    onClick={() =&gt; {
+      // context.history.push === history.push
+      context.history.push('/new-location')
+    }}
+  &gt;
+    Click Me!
+  &lt;/button&gt;
+)
+
+// you need to specify the context type so that it
+// is available within the component
+Button.contextTypes = {
+  history: React.PropTypes.shape({
+    push: React.PropTypes.func.isRequired
+  })
+}
+</code></pre><p>1 and 2 are the simplest choices to implement, so for most use cases, they are your best bets.</p>
+<!-- raw HTML omitted -->
+<h5 id="link">Link</h5>
+<p><a href="https://stackoverflow.com/questions/22876978/loop-inside-react-jsx">https://stackoverflow.com/questions</a></p>
+<!-- raw HTML omitted -->
+<h5 id="youtube-video">Youtube video</h5>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/C0DPdy98e4c" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+
+        </div>
+
+        
+        
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="section-sm">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 mx-auto text-center">
+        <h2>Join Our Newsletter</h2>
+        <p class="text-light px-md-5 py-4 border-left border-right border-primary">
+          You can join with us and keep in toch , Discover amazing news.</p>
+        <form action="#" class="row justify-content-center">
+          <div class="input-group col-md-8">
+            <input type="text" class="form-control" placeholder="Your Email Address">
+            <div class="input-group-append">
+              <button class="input-group-text btn btn-primary">Subscribe</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center mb-5">
+        <a href="https://srilankasl.com/"><img src="https://srilankasl.com/images/logo.png" alt="Dope| It&#39;s Our blog"></a>
+      </div>
+      <div class="col-lg-3 col-sm-6 mb-5">
+        <h6 class="mb-4">Contact Me</h6>
+        <ul class="list-unstyled">
+          <li class="mb-3"><a class="text-dark" href="tel:&#43;94770888767"><i
+                class="ti-mobile mr-3 text-primary"></i>&#43;94770888767</a></li>
+          <li class="mb-3"><i class="ti-location-pin mr-3 text-primary"></i>Malabe,Colombo,Sri Lanka</li>
+          <li class="mb-3"><a class="text-dark" href="mailto:chanakaweerasinghe92@gmail.com"><i
+                class="ti-email mr-3 text-primary"></i>chanakaweerasinghe92@gmail.com</a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-lg-3 col-sm-6 mb-5">
+        <h6 class="mb-4">Social Contacts</h6>
+        <ul class="list-unstyled">
+          
+          <li class="mb-3"><a class="text-dark" href="#">facebook</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="#">twitter</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="#">instagram</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="#">github</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="#">linkedin</a></li>
+          
+        </ul>
+      </div>
+      <div class="col-lg-3 col-sm-6 mb-5">
+        <h6 class="mb-4">Categories</h6>
+        <ul class="list-unstyled">
+          <li class="mb-3"><a class="text-dark"
+              href="/categories/buddhist">Buddhist</a>
+          </li>
+          <li class="mb-3"><a class="text-dark"
+              href="/categories/computing">Computing</a>
+          </li>
+          <li class="mb-3"><a class="text-dark"
+              href="/categories/computingg">Computingg</a>
+          </li>
+          <li class="mb-3"><a class="text-dark"
+              href="/categories/explore-sri-lanka">Explore sri lanka</a>
+          </li>
+          <li class="mb-3"><a class="text-dark"
+              href="/categories/food">Food</a>
+          </li>
+          <li class="mb-3"><a class="text-dark"
+              href="/categories/git">Git</a>
+          </li>
+          <li class="mb-3"><a class="text-dark"
+              href="/categories/health">Health</a>
+          </li>
+          <li class="mb-3"><a class="text-dark"
+              href="/categories/medicine">Medicine</a>
+          </li>
+          <li class="mb-3"><a class="text-dark"
+              href="/categories/programming-language">Programming language</a>
+          </li>
+          <li class="mb-3"><a class="text-dark"
+              href="/categories/sri-lanka">Sri lanka</a>
+          </li>
+          <li class="mb-3"><a class="text-dark"
+              href="/categories/travel">Travel</a>
+          </li>
+          <li class="mb-3"><a class="text-dark"
+              href="/categories/us">Us</a>
+          </li>
+          <li class="mb-3"><a class="text-dark"
+              href="/categories/war">War</a>
+          </li>
+          <li class="mb-3"><a class="text-dark"
+              href="/categories/%e0%b6%b6%e0%b7%99%e0%b7%84%e0%b7%99%e0%b6%ad%e0%b7%8a">බෙහෙත්</a>
+          </li>
+          <li class="mb-3"><a class="text-dark"
+              href="/categories/%e0%b6%b8%e0%b7%92%e0%b6%ae%e0%b7%8a%e0%b6%ba%e0%b7%8f%e0%b7%80%e0%b6%b1%e0%b7%8a">මිථ්යාවන්</a>
+          </li>
+          <li class="mb-3"><a class="text-dark"
+              href="/categories/%e0%b7%83%e0%b7%92%e0%b6%82%e0%b7%84%e0%b6%bd">සිංහල</a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-lg-3 col-sm-6 mb-5">
+        <h6 class="mb-4">Quick Links</h6>
+        <ul class="list-unstyled">
+          
+          <li class="mb-3"><a class="text-dark" href="https://srilankasl.com/about/about">About</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="https://srilankasl.com/blog">Post</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="https://srilankasl.com/contact">Contact</a></li>
+          
+        </ul>
+      </div>
+      <div class="col-12 border-top py-4 text-center">
+        | @2019 <a href="https://srilankasl.com">ChanakaWeerasinghe</a> All Rights Reserved |
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+  var indexURL = "https://srilankasl.com/index.json"
+</script>
+
+<!-- JS Plugins -->
+
+<script src="https://srilankasl.com/plugins/jQuery/jquery.min.js"></script>
+
+<script src="https://srilankasl.com/plugins/bootstrap/bootstrap.min.js"></script>
+
+<script src="https://srilankasl.com/plugins/slick/slick.min.js"></script>
+
+<script src="https://srilankasl.com/plugins/venobox/venobox.min.js"></script>
+
+<script src="https://srilankasl.com/plugins/search/fuse.min.js"></script>
+
+<script src="https://srilankasl.com/plugins/search/mark.js"></script>
+
+<script src="https://srilankasl.com/plugins/search/search.js"></script>
+
+<!-- Main Script -->
+
+<script src="https://srilankasl.com/js/script.min.js"></script>
+<!-- google analitycs -->
+<script>
+  (function (i, s, o, g, r, a, m) {
+    i['GoogleAnalyticsObject'] = r;
+    i[r] = i[r] || function () {
+      (i[r].q = i[r].q || []).push(arguments)
+    }, i[r].l = 1 * new Date();
+    a = s.createElement(o),
+      m = s.getElementsByTagName(o)[0];
+    a.async = 1;
+    a.src = g;
+    m.parentNode.insertBefore(a, m)
+  })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+  ga('create', 'UA-156905363-1', 'auto');
+  ga('send', 'pageview');
+</script>
+</body>
+</html>

@@ -93,6 +93,16 @@
     </item>
     
     <item>
+      <title>Ionic 4 Angular 8 - Uncaught ReferenceError: global is not defined</title>
+      <link>https://srilankasl.com/blog/stackoverflow/ionic_angular_uncaught_referenceerror_global_is_not_defined/</link>
+      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
+      
+      <guid>https://srilankasl.com/blog/stackoverflow/ionic_angular_uncaught_referenceerror_global_is_not_defined/</guid>
+      <description>Working Example include this code
+(window as any).global = window; In your polyfills.</description>
+    </item>
+    
+    <item>
       <title>Nuwaragala Srilanka Amazing place</title>
       <link>https://srilankasl.com/blog/post-5/</link>
       <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>

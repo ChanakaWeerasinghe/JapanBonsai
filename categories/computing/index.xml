@@ -20,5 +20,15 @@
       <description>Types  Centralized Decentralized Systems distributed systems  Centralized What is Centralised Distribution?</description>
     </item>
     
+    <item>
+      <title>Ionic 4 Angular 8 - Uncaught ReferenceError: global is not defined</title>
+      <link>https://srilankasl.com/blog/stackoverflow/ionic_angular_uncaught_referenceerror_global_is_not_defined/</link>
+      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
+      
+      <guid>https://srilankasl.com/blog/stackoverflow/ionic_angular_uncaught_referenceerror_global_is_not_defined/</guid>
+      <description>Working Example include this code
+(window as any).global = window; In your polyfills.</description>
+    </item>
+    
   </channel>
 </rss>

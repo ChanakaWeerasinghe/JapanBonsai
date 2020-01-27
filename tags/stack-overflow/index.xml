@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Stack Overflow on Dope| It&#39;s Our blog</title>
+    <link>https://srilankasl.com/tags/stack-overflow/</link>
+    <description>Recent content in Stack Overflow on Dope| It&#39;s Our blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 29 Oct 2019 10:07:47 +0600</lastBuildDate>
+    
+	<atom:link href="https://srilankasl.com/tags/stack-overflow/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Ionic 4 Angular 8 - Uncaught ReferenceError: global is not defined</title>
+      <link>https://srilankasl.com/blog/stackoverflow/ionic_angular_uncaught_referenceerror_global_is_not_defined/</link>
+      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
+      
+      <guid>https://srilankasl.com/blog/stackoverflow/ionic_angular_uncaught_referenceerror_global_is_not_defined/</guid>
+      <description>Working Example include this code
+(window as any).global = window; In your polyfills.</description>
+    </item>
+    
+  </channel>
+</rss>

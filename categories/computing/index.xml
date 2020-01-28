@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>computing on Dope| It&#39;s Our blog</title>
+    <title>Computing on Dope| It&#39;s Our blog</title>
     <link>https://srilankasl.com/categories/computing/</link>
-    <description>Recent content in computing on Dope| It&#39;s Our blog</description>
+    <description>Recent content in Computing on Dope| It&#39;s Our blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 25 Jan 2020 10:07:47 +0600</lastBuildDate>
@@ -37,6 +37,15 @@
       
       <guid>https://srilankasl.com/blog/stackoverflow/programmatically_navigate_using_react_router/</guid>
       <description>React Router React Router v5.1.0 with hooks There is a new use History hook in React Router &amp;gt;5.</description>
+    </item>
+    
+    <item>
+      <title>What is the cURL command-line syntax to do a POST request ? How to cURL POST from the Command Line</title>
+      <link>https://srilankasl.com/blog/stackoverflow/what_is_the_curl_command_line_syntax_to_do_a_post_request/</link>
+      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
+      
+      <guid>https://srilankasl.com/blog/stackoverflow/what_is_the_curl_command_line_syntax_to_do_a_post_request/</guid>
+      <description>Curl Curl is a reflective object-oriented programming language for interactive web applications whose goal is to provide a smoother transition between formatting and programming.</description>
     </item>
     
   </channel>

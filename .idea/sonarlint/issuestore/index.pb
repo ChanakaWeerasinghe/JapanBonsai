@@ -37,3 +37,9 @@ W
 'categories/explore-sri-lanka/index.html,e/9/e92fc5bf3bd22f6102fbb50621be5279bb826bdb
 B
 scss/style.min.css,8/9/8923acd14feef13e4a14aaf13b784ff3746dde3a
+M
+tags/photos/page/2/index.html,6/f/6fe57560b03998491861a536f2680e30026a10e9
+M
+tags/photos/page/1/index.html,9/8/9851dcced9bfbbb2882c96a6e35bdee198560fd1
+M
+tags/photos/page/3/index.html,d/5/d5550bbdd1fc9c897cc37a85bd611e5fc14991f5

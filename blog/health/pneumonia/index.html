@@ -5,7 +5,7 @@
 
   <!-- mobile responsive meta -->
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="Use composition and render a &lt;Route&gt; Use the context. React Router is mostly a wrapper around the history library. history handles interaction with the browser&#39;s window. history for you with its browser and hash histories. It also provides a memory history which is useful for environments that don&#39;t have a global history. This is particularly useful in mobile app development (react-native) and unit testing with Node.">
+  <meta name="description" content=" Pneumonia is an inflammation of the subbronchial area of ​​the lung (lung), especially in the alveoli (air pockets). ">
   <meta name="author" content="Chanaka Weerasinghe">
   <meta name="generator" content="Hugo 0.62.2" />
 
@@ -126,10 +126,10 @@
     <div class="row">
       <div class="col-lg-8 mx-auto">
         
-        <a href="/categories/computing"
-          class="text-primary">Computing</a>
+        <a href="/categories/health"
+          class="text-primary">Health</a>
         
-        <h2>Programmatically navigate using react router</h2>
+        <h2>What is Pneumonia How to get rid of it</h2>
         <div class="mb-3 post-meta">
           <span>By Chanaka Weerasinghe</span>
           
@@ -138,104 +138,30 @@
           
         </div>
         
-        <img src="https://srilankasl.com/images/post/computing/react.png" class="img-fluid w-100 mb-4" alt="Programmatically navigate using react router">
+        <img src="https://srilankasl.com/images/post/health/pneumonia1.jpg" class="img-fluid w-100 mb-4" alt="What is Pneumonia How to get rid of it">
         
         <div class="content mb-5">
-          <h1 id="react-router">React Router</h1>
-<!-- raw HTML omitted -->
-<h5 id="react-router-v510-with-hooks">React Router v5.1.0 with hooks</h5>
-<p>There is a new use History hook in React Router &gt;5.1.0 if if you are using React &gt;16.8.0 and functional components.</p>
-<pre><code>import { useHistory } from &quot;react-router-dom&quot;;
-
-function HomeButton() {
-  const history = useHistory();
-
-  function handleClick() {
-    history.push(&quot;/home&quot;);
-  }
-
-  return (
-    &lt;button type=&quot;button&quot; onClick={handleClick}&gt;
-      Go home
-    &lt;/button&gt;
-  );
-}
-</code></pre><p>React Router v4</p>
-<p>With v4 of React Router, there are three approaches that you can take to programmatic routing within components.</p>
-<p>Use the withRouter higher-order component.
-Use composition and render a <!-- raw HTML omitted -->
-Use the context.
-React Router is mostly a wrapper around the history library.
-history handles interaction with the browser's window.
-history for you with its browser and hash histories.
-It also provides a memory history which is useful for environments that don't have a global history. This is particularly useful in mobile app development (react-native) and unit testing with Node.</p>
-<p>A history instance has two methods for navigating:-push and replace.
-If you think of the history as an array of visited locations,
-push will add a new location to the array and replace will replace the current location in the array with the new one.
-Typically you will want to use the push method when you are navigating.</p>
-<p>In earlier versions of React Router,
-you had to create your own history instance,
-but in v4 the <code>&lt;BrowserRouter&gt;</code>, <code>&lt;HashRouter&gt;</code>, and <code>&lt;MemoryRouter&gt;</code> components will create a browser, hash, and memory instances for you. React Router makes the properties and methods of the history instance associated with your router available through the context, under the router object.</p>
-<ol>
-<li>Use the withRouter higher-order component
-The withRouter higher-order component will inject the history object as a prop of the component. This allows you to access the push and replace methods without having to deal with the context.</li>
-</ol>
-<pre><code>import { withRouter } from 'react-router-dom'
-// this also works with react-router-native
-
-const Button = withRouter(({ history }) =&gt; (
-  &lt;button
-    type='button'
-    onClick={() =&gt; { history.push('/new-location') }}
-  &gt;
-    Click Me!
-  &lt;/button&gt;
-))
-</code></pre><ol start="2">
-<li>Use composition and render a <!-- raw HTML omitted --></li>
-</ol>
-<pre><code>The &lt;Route&gt; component isn't just for matching locations. You can render a pathless route and it will always match the current location. The &lt;Route&gt; component passes the same props as withRouter, so you will be able to access the history methods through the history prop.
-
-import { Route } from 'react-router-dom'
-
-const Button = () =&gt; (
-  &lt;Route render={({ history}) =&gt; (
-    &lt;button
-      type='button'
-      onClick={() =&gt; { history.push('/new-location') }}
-    &gt;
-      Click Me!
-    &lt;/button&gt;
-  )} /&gt;
-)
-</code></pre><ol start="3">
-<li>Use the context</li>
-</ol>
-<p>But you probably should not</p>
-<p>The last option is one that you should only use if you feel comfortable working with React's context model. Although context is an option, it should be stressed that context is an unstable API and React has a section Why Not To Use Context in their documentation. So use at your own risk!</p>
-<pre><code>const Button = (props, context) =&gt; (
-  &lt;button
-    type='button'
-    onClick={() =&gt; {
-      // context.history.push === history.push
-      context.history.push('/new-location')
-    }}
-  &gt;
-    Click Me!
-  &lt;/button&gt;
-)
-
-// you need to specify the context type so that it
-// is available within the component
-Button.contextTypes = {
-  history: React.PropTypes.shape({
-    push: React.PropTypes.func.isRequired
-  })
-}
-</code></pre><p>1 and 2 are the simplest choices to implement, so for most use cases, they are your best bets.</p>
-<!-- raw HTML omitted -->
-<h5 id="link">Link</h5>
-<p><a href="https://stackoverflow.com/questions/22876978/loop-inside-react-jsx">https://stackoverflow.com/questions</a></p>
+          <h3 id="justice">Justice</h3>
+<p>Pneumonia is an inflammation of the subbronchial area of ​​the lung (lung), especially in the alveoli (air pockets).</p>
+<h3 id="pneumonia">Pneumonia</h3>
+<p>Pneumonia</p>
+<h3 id="cause">cause</h3>
+<p>The most common cause is microbial infections, which are bacteria or viruses, and rarely can be fungal infections. In addition to infectious pneumonia caused by microorganisms, non-infectious pneumonia may be caused by aspiration of foreign substances such as chemicals or vomiting, aspiration of gases, or radiation therapy .</p>
+<h3 id="symptom">Symptom</h3>
+<p>Pneumonia causes inflammation of the lungs, impairing the normal functioning of the lungs, resulting in pulmonary symptoms and systemic symptoms throughout the body.
+Pulmonary symptoms include coughing caused by respiratory irritation, sputum caused by the release of inflammatory substances, and dyspnea caused by impaired breathing. Phlegm can come in sticky, pus-like appearance, and blood can come out.
+Inflammation of the pleura that surrounds the lungs can cause pain when breathing, and other than the respiratory system, digestive symptoms such as nausea, vomiting, and diarrhea can occur. In addition, systemic diseases throughout the body, such as headaches, fatigue, muscle pain , and joint pain , can occur. Systemic reactions of inflammation usually cause fever or chills.</p>
+<h3 id="diagnosis--test">Diagnosis / Test</h3>
+<p>First of all, it can be suspected through medical history listening and examination, and chest x-ray can be used to check for changes in lung shade. However , if no visible shadows are found on the x-ray , tests such as chest computed tomography ( CT ) may be done. Identifying the causative microorganisms is not easy, but it is possible to diagnose the causative organism through sputum culture, causative bacteria, blood culture test, or urine antigen test.</p>
+<h3 id="cure">cure</h3>
+<p>Pneumonia caused by microorganisms is treated according to the causative organism, and antibiotics are treated. In general, pneumonia in the community is assumed to be bacterial pneumonia, empirically treated with antibiotics, and when the causative microorganism is identified, it is changed to an appropriate antibiotic. Viral pneumonia, such as influenza, has antiviral effects early in the onset of symptoms, but the effect of antiviral agents is less pronounced after a period of time.</p>
+<p>If the condition is mild and hospitalization is not necessary, it is not necessary to be hospitalized and treated. However, inpatient treatment is recommended for children with low immunity, elderly patients and patients with severe diseases. Unless there is no complication or resistance to pneumonia caused by resistant drugs, treatment is usually enough for 10-14 days. If you are severely unable to breathe on your own, you should seek mechanical ventilation in the intensive care unit.</p>
+<h3 id="progress--complications">Progress / Complications</h3>
+<p>It has a very diverse course and varies according to the basic condition of the patient and the causative agent of pneumonia. Pneumonia may progress to sepsis or shock, and partial complications of the lung may be accompanied by empyema, pulmonary abscess, and acute respiratory distress syndrome. Severe cases can lead to death.</p>
+<h3 id="prevention-method">Prevention method</h3>
+<p>There are vaccines to prevent pneumonia caused by flu or pneumococci. Pneumococcal vaccines do not provide complete protection against pneumonia, but are effective in reducing severe pneumococcal infections.</p>
+<h5 id="test">Test</h5>
+<p><img src="../../../images/post/health/pneumonia.jpg" alt="image"></p>
 <!-- raw HTML omitted -->
 <h5 id="youtube-video">Youtube video</h5>
 

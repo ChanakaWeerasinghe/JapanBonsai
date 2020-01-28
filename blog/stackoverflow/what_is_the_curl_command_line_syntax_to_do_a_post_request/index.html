@@ -148,16 +148,18 @@
 <pre><code> curl --data &quot;param1=value1_data&amp;param2=value2_data&quot; https://example.com/resource.cgi
  
 </code></pre><h5 id="curl-with-fields-specified-individually">CURL With fields specified individually:</h5>
-<p>curl &ndash;data &ldquo;param1=value1&rdquo; &ndash;data &ldquo;param2=value2&rdquo; <a href="https://example.com/resource.cgi">https://example.com/resource.cgi</a></p>
-<h5 id="curl-with-multipart">CURL With Multipart:</h5>
-<p>curl &ndash;form &ldquo;<a href="mailto:fileupload=@my-file.txt">fileupload=@my-file.txt</a>&rdquo; <a href="https://example.com/resource.cgi">https://example.com/resource.cgi</a></p>
-<h5 id="curl-with-multipart-with-fields-and-a-filename">CURL With Multipart with fields and a filename:</h5>
-<p>curl &ndash;form &ldquo;<a href="mailto:fileupload=@my-file.txt">fileupload=@my-file.txt</a>;filename=desired-filename.txt&rdquo; &ndash;form param1=value1 &ndash;form param2=value2 <a href="https://example.com/resource.cgi">https://example.com/resource.cgi</a></p>
-<h5 id="curl-with--without-data">CURL With  Without data:</h5>
-<p>curl &ndash;data '&rsquo; <a href="https://example.com/resource.cgi">https://example.com/resource.cgi</a></p>
-<p>curl -X POST <a href="https://example.com/resource.cgi">https://example.com/resource.cgi</a></p>
-<p>curl &ndash;request POST <a href="https://example.com/resource.cgi">https://example.com/resource.cgi</a></p>
-<h5 id="for-more-information-you-can-see-the-curl-manual-the-curl-tutorial-on-emulating-a-web-browser-is-helpful">For more information You can see the cURL manual. The cURL tutorial on emulating a web browser is helpful.</h5>
+<pre><code> curl --data &quot;param1=value1&quot; --data &quot;param2=value2&quot; https://example.com/resource.cgi
+</code></pre><h5 id="curl-with-multipart">CURL With Multipart:</h5>
+<pre><code>curl --form &quot;fileupload=@my-file.txt&quot; https://example.com/resource.cgi
+</code></pre><h5 id="curl-with-multipart-with-fields-and-a-filename">CURL With Multipart with fields and a filename:</h5>
+<pre><code>curl --form &quot;fileupload=@my-file.txt;filename=desired-filename.txt&quot; --form param1=value1 --form param2=value2 https://example.com/resource.cgi
+</code></pre><h5 id="curl-with--without-data">CURL With  Without data:</h5>
+<pre><code>curl --data '' https://example.com/resource.cgi
+</code></pre><p>or</p>
+<pre><code> curl -X POST https://example.com/resource.cgi
+</code></pre><p>or</p>
+<pre><code> curl --request POST https://example.com/resource.cgi
+</code></pre><h5 id="for-more-information-you-can-see-the-curl-manual-the-curl-tutorial-on-emulating-a-web-browser-is-helpful">For more information You can see the cURL manual. The cURL tutorial on emulating a web browser is helpful.</h5>
 <p>With <strong>libcurl</strong>, use the <code>curl_formadd()</code> function to build your form before submitting it in the usual way. See the libcurl documentation for more information.</p>
 <h5 id="for-large-files-consider-adding-parameters-to-show-upload-progress">For large files, consider adding parameters to show upload progress:</h5>
 <pre><code> curl --tr-encoding -X POST -v -# -o output -T filename.dat \

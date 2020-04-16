@@ -6,10 +6,19 @@
     <description>Recent content in Tags on Hope| It&#39;s Our blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 29 Jan 2020 10:07:47 +0600</lastBuildDate>
+    <lastBuildDate>Mon, 10 Feb 2020 10:07:47 +0600</lastBuildDate>
     
 	<atom:link href="https://srilankasl.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Type Script</title>
+      <link>https://srilankasl.com/tags/type-script/</link>
+      <pubDate>Mon, 10 Feb 2020 10:07:47 +0600</pubDate>
+      
+      <guid>https://srilankasl.com/tags/type-script/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>health</title>
@@ -35,6 +44,15 @@
       <pubDate>Sat, 25 Jan 2020 10:07:47 +0600</pubDate>
       
       <guid>https://srilankasl.com/tags/distributed-computing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>TypeScript</title>
+      <link>https://srilankasl.com/tags/typescript/</link>
+      <pubDate>Sat, 25 Jan 2020 10:07:47 +0600</pubDate>
+      
+      <guid>https://srilankasl.com/tags/typescript/</guid>
       <description></description>
     </item>
     
@@ -129,15 +147,6 @@
     </item>
     
     <item>
-      <title>Hikkaduwa</title>
-      <link>https://srilankasl.com/tags/hikkaduwa/</link>
-      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
-      
-      <guid>https://srilankasl.com/tags/hikkaduwa/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>History</title>
       <link>https://srilankasl.com/tags/history/</link>
       <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
@@ -224,15 +233,6 @@
       <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
       
       <guid>https://srilankasl.com/tags/trump/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Type Script</title>
-      <link>https://srilankasl.com/tags/type-script/</link>
-      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
-      
-      <guid>https://srilankasl.com/tags/type-script/</guid>
       <description></description>
     </item>
     

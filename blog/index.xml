@@ -12,6 +12,15 @@
     
     
     <item>
+      <title>Centralized vs Decentralized vs Distributed</title>
+      <link>https://srilankasl.com/blog/computing/distributedcmputing/</link>
+      <pubDate>Mon, 10 Feb 2020 10:07:47 +0600</pubDate>
+      
+      <guid>https://srilankasl.com/blog/computing/distributedcmputing/</guid>
+      <description>Centralized Systems  Presence of a global clock One single central unit Single point of failure  Architecture of Centralized Systems  Client Server Architecture  Decentralized Systems  Lack of a global clock Multiple central units (Computers/Nodes/Servers) Dependent failure of components  Architecture of Decentralized Systems  Master/Slave Architecture  </description>
+    </item>
+    
+    <item>
       <title>Mental Health</title>
       <link>https://srilankasl.com/blog/health/mental_health/</link>
       <pubDate>Wed, 29 Jan 2020 10:07:47 +0600</pubDate>
@@ -36,6 +45,15 @@
       
       <guid>https://srilankasl.com/blog/what_is_a_distributed_system/</guid>
       <description>Types  Centralized Decentralized Systems distributed systems  Centralized What is Centralised Distribution?</description>
+    </item>
+    
+    <item>
+      <title>What is TypeScript and why would I use it in place of JavaScript</title>
+      <link>https://srilankasl.com/blog/what_is_typescript_and_why_would_i_use_it_in_place_of_javascript/</link>
+      <pubDate>Sat, 25 Jan 2020 10:07:47 +0600</pubDate>
+      
+      <guid>https://srilankasl.com/blog/what_is_typescript_and_why_would_i_use_it_in_place_of_javascript/</guid>
+      <description>Are there other technologies like it? There&#39;s CoffeeScript, but that really serves a different purpose.</description>
     </item>
     
     <item>
@@ -72,15 +90,6 @@
       
       <guid>https://srilankasl.com/blog/medical/what_is_barbiturate/</guid>
       <description>BARBITURATES BARBITURATES are sedative drug.. used, among other purposes, to relieve anxiety and to promote sleep.</description>
-    </item>
-    
-    <item>
-      <title>Best Places to Visit in Hikkaduwa</title>
-      <link>https://srilankasl.com/blog/post-1/</link>
-      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
-      
-      <guid>https://srilankasl.com/blog/post-1/</guid>
-      <description>Hikkaduwa Hikkaduwa is a seaside resort town in southwestern Sri Lanka.</description>
     </item>
     
     <item>

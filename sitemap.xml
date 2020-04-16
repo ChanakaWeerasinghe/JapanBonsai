@@ -4,7 +4,32 @@
   
   <url>
     <loc>https://srilankasl.com/categories/</loc>
-    <lastmod>2020-01-29T10:07:47+06:00</lastmod>
+    <lastmod>2020-02-10T10:07:47+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://srilankasl.com/blog/computing/distributedcmputing/</loc>
+    <lastmod>2020-02-10T10:07:47+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://srilankasl.com/categories/computing/</loc>
+    <lastmod>2020-02-10T10:07:47+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://srilankasl.com/</loc>
+    <lastmod>2020-02-10T10:07:47+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://srilankasl.com/tags/</loc>
+    <lastmod>2020-02-10T10:07:47+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://srilankasl.com/tags/type-script/</loc>
+    <lastmod>2020-02-10T10:07:47+06:00</lastmod>
   </url>
   
   <url>
@@ -18,17 +43,7 @@
   </url>
   
   <url>
-    <loc>https://srilankasl.com/</loc>
-    <lastmod>2020-01-29T10:07:47+06:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://srilankasl.com/blog/health/mental_health/</loc>
-    <lastmod>2020-01-29T10:07:47+06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://srilankasl.com/tags/</loc>
     <lastmod>2020-01-29T10:07:47+06:00</lastmod>
   </url>
   
@@ -43,17 +58,27 @@
   </url>
   
   <url>
-    <loc>https://srilankasl.com/categories/computing/</loc>
-    <lastmod>2020-01-25T10:07:47+06:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://srilankasl.com/tags/distributed-computing/</loc>
     <lastmod>2020-01-25T10:07:47+06:00</lastmod>
   </url>
   
   <url>
+    <loc>https://srilankasl.com/categories/stack-overflow/</loc>
+    <lastmod>2020-01-25T10:07:47+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://srilankasl.com/tags/typescript/</loc>
+    <lastmod>2020-01-25T10:07:47+06:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://srilankasl.com/blog/what_is_a_distributed_system/</loc>
+    <lastmod>2020-01-25T10:07:47+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://srilankasl.com/blog/what_is_typescript_and_why_would_i_use_it_in_place_of_javascript/</loc>
     <lastmod>2020-01-25T10:07:47+06:00</lastmod>
   </url>
   
@@ -123,11 +148,6 @@
   </url>
   
   <url>
-    <loc>https://srilankasl.com/blog/post-1/</loc>
-    <lastmod>2019-10-29T10:07:47+06:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://srilankasl.com/categories/buddhist/</loc>
     <lastmod>2019-10-29T10:07:47+06:00</lastmod>
   </url>
@@ -158,12 +178,12 @@
   </url>
   
   <url>
-    <loc>https://srilankasl.com/tags/git/</loc>
+    <loc>https://srilankasl.com/categories/git/</loc>
     <lastmod>2019-10-29T10:07:47+06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://srilankasl.com/categories/git/</loc>
+    <loc>https://srilankasl.com/tags/git/</loc>
     <lastmod>2019-10-29T10:07:47+06:00</lastmod>
   </url>
   
@@ -179,11 +199,6 @@
   
   <url>
     <loc>https://srilankasl.com/tags/hidout/</loc>
-    <lastmod>2019-10-29T10:07:47+06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://srilankasl.com/tags/hikkaduwa/</loc>
     <lastmod>2019-10-29T10:07:47+06:00</lastmod>
   </url>
   
@@ -329,11 +344,6 @@
   
   <url>
     <loc>https://srilankasl.com/blog/us/trump_shows_reveals_space_force/</loc>
-    <lastmod>2019-10-29T10:07:47+06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://srilankasl.com/tags/type-script/</loc>
     <lastmod>2019-10-29T10:07:47+06:00</lastmod>
   </url>
   

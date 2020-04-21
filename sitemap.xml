@@ -4,26 +4,36 @@
   
   <url>
     <loc>https://srilankasl.com/categories/</loc>
-    <lastmod>2020-02-10T10:07:47+06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://srilankasl.com/blog/computing/distributedcmputing/</loc>
-    <lastmod>2020-02-10T10:07:47+06:00</lastmod>
+    <lastmod>2020-04-21T10:07:47+06:00</lastmod>
   </url>
   
   <url>
     <loc>https://srilankasl.com/categories/computing/</loc>
-    <lastmod>2020-02-10T10:07:47+06:00</lastmod>
+    <lastmod>2020-04-21T10:07:47+06:00</lastmod>
   </url>
   
   <url>
     <loc>https://srilankasl.com/</loc>
-    <lastmod>2020-02-10T10:07:47+06:00</lastmod>
+    <lastmod>2020-04-21T10:07:47+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://srilankasl.com/blog/stackoverflow/is_there_a_way_to_get_the_source_code_from_an_apk_file_/</loc>
+    <lastmod>2020-04-21T10:07:47+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://srilankasl.com/tags/stack-overflow/</loc>
+    <lastmod>2020-04-21T10:07:47+06:00</lastmod>
   </url>
   
   <url>
     <loc>https://srilankasl.com/tags/</loc>
+    <lastmod>2020-04-21T10:07:47+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://srilankasl.com/blog/computing/distributedcmputing/</loc>
     <lastmod>2020-02-10T10:07:47+06:00</lastmod>
   </url>
   
@@ -178,12 +188,12 @@
   </url>
   
   <url>
-    <loc>https://srilankasl.com/categories/git/</loc>
+    <loc>https://srilankasl.com/tags/git/</loc>
     <lastmod>2019-10-29T10:07:47+06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://srilankasl.com/tags/git/</loc>
+    <loc>https://srilankasl.com/categories/git/</loc>
     <lastmod>2019-10-29T10:07:47+06:00</lastmod>
   </url>
   
@@ -304,11 +314,6 @@
   
   <url>
     <loc>https://srilankasl.com/categories/sri-lanka/</loc>
-    <lastmod>2019-10-29T10:07:47+06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://srilankasl.com/tags/stack-overflow/</loc>
     <lastmod>2019-10-29T10:07:47+06:00</lastmod>
   </url>
   
@@ -505,6 +510,10 @@
   <url>
     <loc>https://srilankasl.com/blog/post-so/</loc>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://srilankasl.com/blog/stackoverflow/what_is_the_difference_between_px_dip_dp_and-_sp_-/</loc>
   </url>
   
 </urlset>

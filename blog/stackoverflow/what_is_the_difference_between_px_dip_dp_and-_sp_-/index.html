@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en-us"><head>
+  <meta charset="utf-8">
+  <title>Hope| It&#39;s Our blog</title>
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="Pretty much everything about this and how to achieve the best support for multiple screens of different sizes and densities is very well documented here. ">
+  <meta name="author" content="Chanaka Weerasinghe">
+  <meta name="generator" content="Hugo 0.62.2" />
+
+  <!-- plugins -->
+  
+  <link rel="stylesheet" href="https://srilankasl.com/plugins/bootstrap/bootstrap.min.css ">
+  
+  <link rel="stylesheet" href="https://srilankasl.com/plugins/slick/slick.css ">
+  
+  <link rel="stylesheet" href="https://srilankasl.com/plugins/themify-icons/themify-icons.css ">
+  
+  <link rel="stylesheet" href="https://srilankasl.com/plugins/venobox/venobox.css ">
+  
+
+  <!-- Main Stylesheet -->
+  
+  <link rel="stylesheet" href="https://srilankasl.com/scss/style.min.css" media="screen">
+
+  <!--Favicon-->
+  <link rel="shortcut icon" href="https://srilankasl.com/images/favicon.png " type="image/x-icon">
+  <link rel="icon" href="https://srilankasl.com/images/favicon.png " type="image/x-icon">
+
+</head>
+<body>
+<!-- preloader start -->
+<div class="preloader">
+  
+</div>
+<!-- preloader end -->
+<!-- navigation -->
+<header class="navigation">
+  <div class="container">
+    
+    <nav class="navbar navbar-expand-lg navbar-white bg-transparent border-bottom">
+      <a class="navbar-brand mobile-view" href="https://srilankasl.com/"><img class="img-fluid"
+          src="https://srilankasl.com/images/logo.png" alt="Hope| It&#39;s Our blog"></a>
+      <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation">
+        <i class="ti-menu h3"></i>
+      </button>
+
+      <div class="collapse navbar-collapse text-center" id="navigation">
+        <div class="desktop-view">
+          <ul class="navbar-nav mr-auto">
+            
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="ti-facebook"></i></a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="ti-twitter-alt"></i></a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="ti-instagram"></i></a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="ti-github"></i></a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="ti-linkedin"></i></a>
+            </li>
+            
+          </ul>
+        </div>
+
+        <a class="navbar-brand mx-auto desktop-view" href="https://srilankasl.com/"><img class="img-fluid"
+            src="https://srilankasl.com/images/logo.png" alt="Hope| It&#39;s Our blog"></a>
+
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="https://srilankasl.com/"> Home </a>
+          </li>
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://srilankasl.com/about/about">About</a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://srilankasl.com/blog">Post</a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://srilankasl.com/contact">Contact</a>
+          </li>
+          
+          
+        </ul>
+
+        
+        <!-- search -->
+        <div class="search px-4">
+          <button id="searchOpen" class="search-btn"><i class="ti-search"></i></button>
+          <div class="search-wrapper">
+            <form action="https://srilankasl.com//search" class="h-100">
+              <input class="search-box px-4" id="search-query" name="s" type="search" placeholder="Type & Hit Enter...">
+            </form>
+            <button id="searchClose" class="search-close"><i class="ti-close text-dark"></i></button>
+          </div>
+        </div>
+        
+
+        
+      </div>
+    </nav>
+  </div>
+</header>
+<!-- /navigation -->
+
+<section class="section-sm">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 mx-auto">
+        
+        <a href="/categories/computing"
+          class="text-primary">Computing</a>
+        
+        <h2>What is the difference between “px”, “dip”, “dp” and “sp”?</h2>
+        <div class="mb-3 post-meta">
+          <span>By Chanaka Weerasinghe</span>
+          
+          <span class="border-bottom border-primary px-2 mx-1"></span>
+          <span>01 January 0001</span>
+          
+        </div>
+        
+        <img src="https://srilankasl.com/images/post/stack/diff.png" class="img-fluid w-100 mb-4" alt="What is the difference between “px”, “dip”, “dp” and “sp”?">
+        
+        <div class="content mb-5">
+          <h5 id="resolution">Resolution</h5>
+<p>The total number of physical pixels on a screen. When adding support for multiple screens, applications do not work directly with resolution; applications should be concerned only with screen size and density, as specified by the generalized size and density groups.
+Density-independent pixel (dp)
+A virtual pixel unit that you should use when defining UI layout, to express layout dimensions or position in a density-independent way. The density-independent pixel is equivalent to one physical pixel on a 160 dpi screen, which is the baseline density assumed by the system for a &ldquo;medium&rdquo; density screen. At runtime, the system transparently handles any scaling of the dp units, as necessary, based on the actual density of the screen in use. The conversion of dp units to screen pixels is simple: px = dp * (dpi / 160). For example, on a 240 dpi screen, 1 dp equals 1.5 physical pixels. You should always use dp units when defining your application's UI, to ensure proper display of your UI on screens with different densities.</p>
+<h5 id="px">px</h5>
+<p>Pixels - corresponds to actual pixels on the screen.</p>
+<h5 id="in">in</h5>
+<p>Inches - based on the physical size of the screen.
+1 Inch = 2.54 centimeters</p>
+<h5 id="mm">mm</h5>
+<p>Millimeters - based on the physical size of the screen.</p>
+<h5 id="pt">pt</h5>
+<p>Points - 1/72 of an inch based on the physical size of the screen.</p>
+<h5 id="dp-or-dip">dp or dip</h5>
+<p>Density-independent Pixels - an abstract unit that is based on the physical density of the screen. These units are relative to a 160 dpi screen, so one dp is one pixel on a 160 dpi screen. The ratio of dp-to-pixel will change with the screen density, but not necessarily in direct proportion. Note: The compiler accepts both &ldquo;dip&rdquo; and &ldquo;dp&rdquo;, though &ldquo;dp&rdquo; is more consistent with &ldquo;sp&rdquo;.</p>
+<h5 id="sp">sp</h5>
+<p>Scale-independent Pixels - this is like the dp unit, but it is also scaled by the user's font size preference. It is recommended you use this unit when specifying font sizes, so they will be adjusted for both the screen density and user's preference.</p>
+<p>From Understanding Density Independence In Androiddiff</p>
+<table>
+<thead>
+<tr>
+<th>Density Bucket</th>
+<th align="left">Screen Density</th>
+<th align="left">Physical Size</th>
+<th align="left">Pixel Size</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ldpi</td>
+<td align="left">120 dpi</td>
+<td align="left">0.5 x 0.5 in</td>
+<td align="left">0.5 in * 120 dpi = 60x60 px</td>
+</tr>
+<tr>
+<td>mdpi</td>
+<td align="left">160 dpi</td>
+<td align="left">0.5 x 0.5 in</td>
+<td align="left">0.5 in * 160 dpi = 80x80 px</td>
+</tr>
+<tr>
+<td>hdpi</td>
+<td align="left">240 dpi</td>
+<td align="left">0.5 x 0.5 in</td>
+<td align="left">0.5 in * 240 dpi = 120x120 px</td>
+</tr>
+<tr>
+<td>xhdpi</td>
+<td align="left">320 dpi</td>
+<td align="left">0.5 x 0.5 in</td>
+<td align="left">0.5 in * 320 dpi = 160x160 px</td>
+</tr>
+<tr>
+<td>xxhdpi</td>
+<td align="left">480 dpi</td>
+<td align="left">0.5 x 0.5 in</td>
+<td align="left">0.5 in * 480 dpi = 240x240 px</td>
+</tr>
+<tr>
+<td>xxxhdpi</td>
+<td align="left">640 dpi</td>
+<td align="left">0.5 x 0.5 in</td>
+<td align="left">0.5 in * 640 dpi = 320x320 px</td>
+</tr>
+</tbody>
+</table>
+<!-- raw HTML omitted -->
+<h5 id="screen-size">Screen size</h5>
+<p>Actual physical size, measured as the screen's diagonal. For simplicity, Android groups all actual screen sizes into four generalized sizes: small, normal, large, and extra-large.</p>
+<h5 id="screen-density">Screen density</h5>
+<p>The number of pixels within a physical area of the screen; usually referred to as dpi (dots per inch). For example, a &ldquo;low&rdquo; density screen has fewer pixels within a given physical area, compared to a &ldquo;normal&rdquo; or &ldquo;high&rdquo; density screen. For simplicity, Android groups all actual screen densities into six generalized densities: low, medium, high, extra-high, extra-extra-high, and extra-extra-extra-high.</p>
+<h5 id="orientation">Orientation</h5>
+<p>The orientation of the screen from the user's point of view. This is either landscape or portrait, meaning that the screen's aspect ratio is either wide or tall, respectively. Be aware that not only do different devices operate in different orientations by default, but the orientation can change at runtime when the user rotates the device.</p>
+
+        </div>
+
+        
+        
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="section-sm">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 mx-auto text-center">
+        <h2>Join Our Newsletter</h2>
+        <p class="text-light px-md-5 py-4 border-left border-right border-primary">
+          You can join with us and keep in toch , Discover amazing news.</p>
+        <form action="#" class="row justify-content-center">
+          <div class="input-group col-md-8">
+            <input type="text" class="form-control" placeholder="Your Email Address">
+            <div class="input-group-append">
+              <button class="input-group-text btn btn-primary">Subscribe</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center mb-5">
+        <a href="https://srilankasl.com/"><img src="https://srilankasl.com/images/logo.png" alt="Hope| It&#39;s Our blog"></a>
+      </div>
+      <div class="col-lg-3 col-sm-6 mb-5">
+        <h6 class="mb-4">Contact Me</h6>
+        <ul class="list-unstyled">
+          <li class="mb-3"><a class="text-dark" href="tel:"><i
+                class="ti-mobile mr-3 text-primary"></i></a></li>
+          <li class="mb-3"><i class="ti-location-pin mr-3 text-primary"></i></li>
+          <li class="mb-3"><a class="text-dark" href="mailto:"><i
+                class="ti-email mr-3 text-primary"></i></a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-lg-3 col-sm-6 mb-5">
+        <h6 class="mb-4">Social Contacts</h6>
+        <ul class="list-unstyled">
+          
+          <li class="mb-3"><a class="text-dark" href="#">facebook</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="#">twitter</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="#">instagram</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="#">github</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="#">linkedin</a></li>
+          
+        </ul>
+      </div>
+      <div class="col-lg-3 col-sm-6 mb-5">
+        <h6 class="mb-4">Categories</h6>
+        <ul class="list-unstyled">
+          <li class="mb-3"><a class="text-dark"
+              href="/categories/buddhist">Buddhist</a>
+          </li>
+          <li class="mb-3"><a class="text-dark"
+              href="/categories/computing">Computing</a>
+          </li>
+          <li class="mb-3"><a class="text-dark"
+              href="/categories/git">Git</a>
+          </li>
+          <li class="mb-3"><a class="text-dark"
+              href="/categories/health">Health</a>
+          </li>
+          <li class="mb-3"><a class="text-dark"
+              href="/categories/sri-lanka">Sri lanka</a>
+          </li>
+          <li class="mb-3"><a class="text-dark"
+              href="/categories/stack-overflow">Stack overflow</a>
+          </li>
+          <li class="mb-3"><a class="text-dark"
+              href="/categories/us">Us</a>
+          </li>
+          <li class="mb-3"><a class="text-dark"
+              href="/categories/war">War</a>
+          </li>
+          <li class="mb-3"><a class="text-dark"
+              href="/categories/%e0%b6%b8%e0%b7%92%e0%b6%ae%e0%b7%8a%e0%b6%ba%e0%b7%8f%e0%b7%80%e0%b6%b1%e0%b7%8a">මිථ්යාවන්</a>
+          </li>
+          <li class="mb-3"><a class="text-dark"
+              href="/categories/%e0%b7%83%e0%b7%92%e0%b6%82%e0%b7%84%e0%b6%bd">සිංහල</a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-lg-3 col-sm-6 mb-5">
+        <h6 class="mb-4">Quick Links</h6>
+        <ul class="list-unstyled">
+          
+          <li class="mb-3"><a class="text-dark" href="https://srilankasl.com/about/about">About</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="https://srilankasl.com/blog">Post</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="https://srilankasl.com/contact">Contact</a></li>
+          
+        </ul>
+      </div>
+      <div class="col-12 border-top py-4 text-center">
+        
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+  var indexURL = "https://srilankasl.com/index.json"
+</script>
+
+<!-- JS Plugins -->
+
+<script src="https://srilankasl.com/plugins/jQuery/jquery.min.js"></script>
+
+<script src="https://srilankasl.com/plugins/bootstrap/bootstrap.min.js"></script>
+
+<script src="https://srilankasl.com/plugins/slick/slick.min.js"></script>
+
+<script src="https://srilankasl.com/plugins/venobox/venobox.min.js"></script>
+
+<script src="https://srilankasl.com/plugins/search/fuse.min.js"></script>
+
+<script src="https://srilankasl.com/plugins/search/mark.js"></script>
+
+<script src="https://srilankasl.com/plugins/search/search.js"></script>
+
+<!-- Main Script -->
+
+<script src="https://srilankasl.com/js/script.min.js"></script>
+<!-- google analitycs -->
+<script>
+  (function (i, s, o, g, r, a, m) {
+    i['GoogleAnalyticsObject'] = r;
+    i[r] = i[r] || function () {
+      (i[r].q = i[r].q || []).push(arguments)
+    }, i[r].l = 1 * new Date();
+    a = s.createElement(o),
+      m = s.getElementsByTagName(o)[0];
+    a.async = 1;
+    a.src = g;
+    m.parentNode.insertBefore(a, m)
+  })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+  ga('create', 'UA-156905363-1', 'auto');
+  ga('send', 'pageview');
+</script>
+
+
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-4554843855357609"
+     data-ad-slot="12345"></ins>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</body>
+</html>

@@ -6,10 +6,19 @@
     <description>Recent content on Hope| It&#39;s Our blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 10 Feb 2020 10:07:47 +0600</lastBuildDate>
+    <lastBuildDate>Tue, 21 Apr 2020 10:07:47 +0600</lastBuildDate>
     
 	<atom:link href="https://srilankasl.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Is there a way to get the source code from an APK file ?</title>
+      <link>https://srilankasl.com/blog/stackoverflow/is_there_a_way_to_get_the_source_code_from_an_apk_file_/</link>
+      <pubDate>Tue, 21 Apr 2020 10:07:47 +0600</pubDate>
+      
+      <guid>https://srilankasl.com/blog/stackoverflow/is_there_a_way_to_get_the_source_code_from_an_apk_file_/</guid>
+      <description>Simple way Simple way: use online tool http://www.javadecompilers.com/apk, upload apk and get source code.</description>
+    </item>
     
     <item>
       <title>Centralized vs Decentralized vs Distributed</title>
@@ -461,6 +470,15 @@
       
       <guid>https://srilankasl.com/blog/post-so/</guid>
       <description>title: &amp;ldquo;What is pipe for in rxJS&amp;rdquo; date: 2019-10-29T10:07:47+06:00 draft: false</description>
+    </item>
+    
+    <item>
+      <title>What is the difference between “px”, “dip”, “dp” and “sp”?</title>
+      <link>https://srilankasl.com/blog/stackoverflow/what_is_the_difference_between_px_dip_dp_and-_sp_-/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://srilankasl.com/blog/stackoverflow/what_is_the_difference_between_px_dip_dp_and-_sp_-/</guid>
+      <description>Resolution The total number of physical pixels on a screen. When adding support for multiple screens, applications do not work directly with resolution; applications should be concerned only with screen size and density, as specified by the generalized size and density groups.</description>
     </item>
     
   </channel>

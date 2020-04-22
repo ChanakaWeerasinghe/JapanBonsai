@@ -12,6 +12,15 @@
     
     
     <item>
+      <title>How do I check if an element is hidden in jQuery?</title>
+      <link>https://srilankasl.com/blog/stackoverflow/how_do_i_check_if_an_element_is_hidden_in_jquery/</link>
+      <pubDate>Wed, 22 Apr 2020 10:07:47 +0600</pubDate>
+      
+      <guid>https://srilankasl.com/blog/stackoverflow/how_do_i_check_if_an_element_is_hidden_in_jquery/</guid>
+      <description>single element; Method 1 // Checks css for display:[none|block], ignores visibility:[true|false] $(element).</description>
+    </item>
+    
+    <item>
       <title>Is there a way to get the source code from an APK file ?</title>
       <link>https://srilankasl.com/blog/stackoverflow/is_there_a_way_to_get_the_source_code_from_an_apk_file_/</link>
       <pubDate>Tue, 21 Apr 2020 10:07:47 +0600</pubDate>
@@ -135,6 +144,15 @@
       
       <guid>https://srilankasl.com/blog/post-10/</guid>
       <description>Delete Local Branch Note most cases the remote name is origin.</description>
+    </item>
+    
+    <item>
+      <title>How do I enable Ivy for Angular</title>
+      <link>https://srilankasl.com/blog/stackoverflow/how_do_i_enable_ivy_for_angular/</link>
+      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
+      
+      <guid>https://srilankasl.com/blog/stackoverflow/how_do_i_enable_ivy_for_angular/</guid>
+      <description>Why Ivy? First and foremost — Mobile devices! It might sound insane but 63% of all US online traffic comes from smartphones and tablets.</description>
     </item>
     
     <item>

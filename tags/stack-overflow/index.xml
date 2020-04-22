@@ -6,10 +6,19 @@
     <description>Recent content in Stack Overflow on Hope| It&#39;s Our blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 21 Apr 2020 10:07:47 +0600</lastBuildDate>
+    <lastBuildDate>Wed, 22 Apr 2020 10:07:47 +0600</lastBuildDate>
     
 	<atom:link href="https://srilankasl.com/tags/stack-overflow/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>How do I check if an element is hidden in jQuery?</title>
+      <link>https://srilankasl.com/blog/stackoverflow/how_do_i_check_if_an_element_is_hidden_in_jquery/</link>
+      <pubDate>Wed, 22 Apr 2020 10:07:47 +0600</pubDate>
+      
+      <guid>https://srilankasl.com/blog/stackoverflow/how_do_i_check_if_an_element_is_hidden_in_jquery/</guid>
+      <description>single element; Method 1 // Checks css for display:[none|block], ignores visibility:[true|false] $(element).</description>
+    </item>
     
     <item>
       <title>Is there a way to get the source code from an APK file ?</title>
@@ -18,6 +27,15 @@
       
       <guid>https://srilankasl.com/blog/stackoverflow/is_there_a_way_to_get_the_source_code_from_an_apk_file_/</guid>
       <description>Simple way Simple way: use online tool http://www.javadecompilers.com/apk, upload apk and get source code.</description>
+    </item>
+    
+    <item>
+      <title>How do I enable Ivy for Angular</title>
+      <link>https://srilankasl.com/blog/stackoverflow/how_do_i_enable_ivy_for_angular/</link>
+      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
+      
+      <guid>https://srilankasl.com/blog/stackoverflow/how_do_i_enable_ivy_for_angular/</guid>
+      <description>Why Ivy? First and foremost — Mobile devices! It might sound insane but 63% of all US online traffic comes from smartphones and tablets.</description>
     </item>
     
     <item>

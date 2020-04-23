@@ -5,7 +5,8 @@
 
   <!-- mobile responsive meta -->
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="use jQuery is() to check the selected element with another element, selector or any jQuery object. This method traverses along the DOM elements to find a match, which satisfies the passed parameter. It will return true if there is a match otherwise returns false.">
+  <meta name="description" content="Enums which is allow us to define a set of named constants(Immutable). Using enums we can make it easier to document intent, or create a set of distinct use cases. TypeScript provides both string and numeric enums.
+">
   <meta name="author" content="Chanaka Weerasinghe">
   <meta name="generator" content="Hugo 0.62.2" />
 
@@ -129,7 +130,7 @@
         <a href="/categories/computing"
           class="text-primary">Computing</a>
         
-        <h2>How do I check if an element is hidden in jQuery?</h2>
+        <h2>What does the yield keyword do?</h2>
         <div class="mb-3 post-meta">
           <span>By Chanaka Weerasinghe</span>
           
@@ -138,53 +139,189 @@
           
         </div>
         
-        <img src="https://srilankasl.com/images/post/computing/jquery.png" class="img-fluid w-100 mb-4" alt="How do I check if an element is hidden in jQuery?">
+        <img src="https://srilankasl.com/images/post/computing/yield.jpg" class="img-fluid w-100 mb-4" alt="What does the yield keyword do?">
         
         <div class="content mb-5">
           <!-- raw HTML omitted -->
-<h5 id="single-element">single element;</h5>
-<h6 id="method-1">Method 1</h6>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#75715e">// Checks css for display:[none|block], ignores visibility:[true|false]
-</span><span style="color:#75715e"></span><span style="color:#a6e22e">$</span>(<span style="color:#a6e22e">element</span>).<span style="color:#a6e22e">is</span>(<span style="color:#e6db74">&#34;:visible&#34;</span>); 
+<h5 id="iterables">Iterables</h5>
+<p>When you create a list, you can read its items one by one. Reading its items one by one is called iteration:</p>
+<pre><code>&gt;&gt;&gt; mylist = [1, 2, 3]
+&gt;&gt;&gt; for i in mylist:
+...    print(i)
+1
+2
+3
+</code></pre><p>mylist is an iterable. When you use a list comprehension, you create a list, and so an iterable:</p>
+<pre><code>&gt;&gt;&gt; mylist = [x*x for x in range(3)]
+&gt;&gt;&gt; for i in mylist:
+...    print(i)
+0
+1
+4
+</code></pre><p>Everything you can use &ldquo;for&hellip; in&hellip;&rdquo; on is an iterable; lists, strings, files&hellip;</p>
+<p>These iterables are handy because you can read them as much as you wish, but you store all the values in memory and this is not always what you want when you have a lot of values.</p>
+<p>Generators
+Generators are iterators, a kind of iterable you can only iterate over once. Generators do not store all the values in memory, they generate the values on the fly:</p>
+<pre><code>&gt;&gt;&gt; mygenerator = (x*x for x in range(3))
+&gt;&gt;&gt; for i in mygenerator:
+...    print(i)
+0
+1
+4
+It is just the same except you used () instead of []. BUT, you cannot perform for i in mygenerator a second time since generators can only be used once: they calculate 0, then forget about it and calculate 1, and end calculating 4, one by one.
+</code></pre><h4 id="yield">yield</h4>
+<p>yield is a keyword that is used like return, except the function will return a generator.</p>
+<pre><code>&gt;&gt;&gt; def createGenerator():
+...    mylist = range(3)
+...    for i in mylist:
+...        yield i*i
+...
+&gt;&gt;&gt; mygenerator = createGenerator() # create a generator
+&gt;&gt;&gt; print(mygenerator) # mygenerator is an object!
+&lt;generator object createGenerator at 0xb7555c34&gt;
+&gt;&gt;&gt; for i in mygenerator:
+...     print(i)
+0
+1
+4
+</code></pre><p>Here it's a useless example, but it's handy when you know your function will return a huge set of values that you will only need to read once.</p>
+<p>To master yield, you must understand that when you call the function, the code you have written in the function body does not run. The function only returns the generator object, this is a bit tricky :-)</p>
+<p>Then, your code will continue from where it left off each time for uses the generator.</p>
+<p>Now the hard part:</p>
+<p>The first time the for calls the generator object created from your function, it will run the code in your function from the beginning until it hits yield, then it'll return the first value of the loop. Then, each subsequent call will run another iteration of the loop you have written in the function and return the next value. This will continue until the generator is considered empty, which happens when the function runs without hitting yield. That can be because the loop has come to an end, or because you no longer satisfy an &ldquo;if/else&rdquo;.</p>
+<p>Your code explained</p>
+<h3 id="generator">Generator:</h3>
+<h5 id="here-you-create-the-method-of-the-node-object-that-will-return-the-generator">Here you create the method of the node object that will return the generator</h5>
+<pre><code>def _get_child_candidates(self, distance, min_dist, max_dist):
 
-<span style="color:#75715e">// The same works with hidden
-</span><span style="color:#75715e"></span><span style="color:#a6e22e">$</span>(<span style="color:#a6e22e">element</span>).<span style="color:#a6e22e">is</span>(<span style="color:#e6db74">&#34;:hidden&#34;</span>); 
-</code></pre></div><h4 id="jquery-is">jQuery is()</h4>
-<h6 id="method-2">Method 2</h6>
-<p>function to check the selected element visible or hidden. This method traverses along the DOM elements to find a match, which satisfies the passed parameter. It will return true if there is a match otherwise returns false.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript">
-<span style="color:#f92672">&lt;</span><span style="color:#a6e22e">script</span><span style="color:#f92672">&gt;</span>
-    (<span style="color:#a6e22e">$</span>(<span style="color:#e6db74">&#34;#myelement&#34;</span>).<span style="color:#a6e22e">is</span>(<span style="color:#e6db74">&#34;:visible&#34;</span>))<span style="color:#f92672">?</span> <span style="color:#a6e22e">alert</span>(<span style="color:#e6db74">&#34;#myelement is visible&#34;</span>) <span style="color:#f92672">:</span> <span style="color:#a6e22e">alert</span>(<span style="color:#e6db74">&#34;#myelement is hidden&#34;</span>);
-<span style="color:#f92672">&lt;</span><span style="color:#960050;background-color:#1e0010">/</span><span style="color:#960050;background-color:#1e0010">s</span><span style="color:#960050;background-color:#1e0010">c</span><span style="color:#960050;background-color:#1e0010">r</span><span style="color:#960050;background-color:#1e0010">i</span><span style="color:#960050;background-color:#1e0010">p</span><span style="color:#960050;background-color:#1e0010">t</span><span style="color:#960050;background-color:#1e0010">&gt;</span>
+    # Here is the code that will be called each time you use the generator object:
 
+    # If there is still a child of the node object on its left
+    # AND if the distance is ok, return the next child
+    if self._leftchild and distance - max_dist &lt; self._median:
+        yield self._leftchild
 
-</code></pre></div><h6 id="method-3">Method 3</h6>
-<p>ebdiv  be set to <code>style=&quot;display:none;&quot;</code>. It works for both show and hide:
-then your angular.json file</p>
-<pre><code>$(document).ready(function(){
-    $(&quot;#eb&quot;).click(function(){
-        $(&quot;#ebdiv&quot;).toggle();
-    });    
-});
-</code></pre><h6 id="method-4">Method 4</h6>
-<p>The below method will consider div2 visible while :visible not. But the above might be useful in many cases, especially when you need to find if there is any error divs visible in the hidden parent because in such conditions :visible will not work.</p>
-<pre><code>if ( $(element).css('display') == 'none' || $(element).css(&quot;visibility&quot;) == &quot;hidden&quot;){
-    // element is hidden
-}
-</code></pre><p>Above method does not consider the visibility of the parent. To consider the parent as well, you should use <code>.is(&quot;:hidden&quot;) or .is(&quot;:visible&quot;)</code>.</p>
-<p>For example,</p>
-<pre><code>&lt;div id=&quot;div1&quot; style=&quot;display:none&quot;&gt;
-  &lt;div id=&quot;div2&quot; style=&quot;display:block&quot;&gt;Div2&lt;/div&gt;
-&lt;/div&gt;
+    # If there is still a child of the node object on its right
+    # AND if the distance is ok, return the next child
+    if self._rightchild and distance + max_dist &gt;= self._median:
+        yield self._rightchild
 
-</code></pre><h6 id="you-can-use-the-hidden-selector">You can use the hidden selector:</h6>
-<pre><code>  // Matches all elements that are hidden
-   $('element:hidden')
-   And the visible selector:
-   
-   // Matches all elements that are visible
-   $('element:visible')
-</code></pre>
+    # If the function arrives here, the generator will be considered empty
+    # there is no more than two values: the left and the right children
+Caller:
+
+# Create an empty list and a list with the current object reference
+result, candidates = list(), [self]
+
+# Loop on candidates (they contain only one element at the beginning)
+</code></pre><p>while candidates:</p>
+<pre><code>    # Get the last candidate and remove it from the list
+    node = candidates.pop()
+
+    # Get the distance between obj and the candidate
+    distance = node._get_dist(obj)
+
+    # If distance is ok, then you can fill the result
+    if distance &lt;= max_dist and distance &gt;= min_dist:
+        result.extend(node._values)
+
+    # Add the children of the candidate in the candidate's list
+    # so the loop will keep running until it will have looked
+    # at all the children of the children of the children, etc. of the candidate
+    candidates.extend(node._get_child_candidates(distance, min_dist, max_dist))
+</code></pre><p>return result
+This code contains several smart parts:</p>
+<p>The loop iterates on a list, but the list expands while the loop is being iterated :-) It's a concise way to go through all these nested data even if it's a bit dangerous since you can end up with an infinite loop. In this case, candidates.extend(node._get_child_candidates(distance, min_dist, max_dist)) exhaust all the values of the generator, but while keeps creating new generator objects which will produce different values from the previous ones since it's not applied on the same node.</p>
+<p>The extend() method is a list object method that expects an iterable and adds its values to the list.</p>
+<p>Usually we pass a list to it:</p>
+<pre><code>&gt;&gt;&gt; a = [1, 2]
+&gt;&gt;&gt; b = [3, 4]
+&gt;&gt;&gt; a.extend(b)
+&gt;&gt;&gt; print(a)
+[1, 2, 3, 4]
+
+</code></pre><p>But in your code, it gets a generator, which is good because:</p>
+<p>You don't need to read the values twice.
+You may have a lot of children and you don't want them all stored in memory.
+And it works because Python does not care if the argument of a method is a list or not. Python expects iterables so it will work with strings, lists, tuples, and generators! This is called duck typing and is one of the reasons why Python is so cool. But this is another story, for another question&hellip;</p>
+<p>You can stop here, or read a little bit to see an advanced use of a generator:</p>
+<p>Controlling a generator exhaustion</p>
+<pre><code>&gt;&gt;&gt; class Bank(): # Let's create a bank, building ATMs
+...    crisis = False
+...    def create_atm(self):
+...        while not self.crisis:
+...            yield &quot;$100&quot;
+&gt;&gt;&gt; hsbc = Bank() # When everything's ok the ATM gives you as much as you want
+&gt;&gt;&gt; corner_street_atm = hsbc.create_atm()
+&gt;&gt;&gt; print(corner_street_atm.next())
+$100
+&gt;&gt;&gt; print(corner_street_atm.next())
+$100
+&gt;&gt;&gt; print([corner_street_atm.next() for cash in range(5)])
+['$100', '$100', '$100', '$100', '$100']
+&gt;&gt;&gt; hsbc.crisis = True # Crisis is coming, no more money!
+&gt;&gt;&gt; print(corner_street_atm.next())
+&lt;type 'exceptions.StopIteration'&gt;
+&gt;&gt;&gt; wall_street_atm = hsbc.create_atm() # It's even true for new ATMs
+&gt;&gt;&gt; print(wall_street_atm.next())
+&lt;type 'exceptions.StopIteration'&gt;
+&gt;&gt;&gt; hsbc.crisis = False # The trouble is, even post-crisis the ATM remains empty
+&gt;&gt;&gt; print(corner_street_atm.next())
+&lt;type 'exceptions.StopIteration'&gt;
+&gt;&gt;&gt; brand_new_atm = hsbc.create_atm() # Build a new one to get back in business
+&gt;&gt;&gt; for cash in brand_new_atm:
+...    print cash
+$100
+$100
+$100
+$100
+$100
+$100
+$100
+$100
+$100
+...
+</code></pre><p>Note: For Python 3, useprint(corner_street_atm.<strong>next</strong>()) or print(next(corner_street_atm))</p>
+<p>It can be useful for various things like controlling access to a resource.</p>
+<p>Itertools, your best friend
+The itertools module contains special functions to manipulate iterables. Ever wish to duplicate a generator? Chain two generators? Group values in a nested list with a one-liner? Map / Zip without creating another list?</p>
+<p>Then just import itertools.</p>
+<p>An example? Let's see the possible orders of arrival for a four-horse race:</p>
+<pre><code>
+&gt;&gt;&gt; horses = [1, 2, 3, 4]
+&gt;&gt;&gt; races = itertools.permutations(horses)
+&gt;&gt;&gt; print(races)
+&lt;itertools.permutations object at 0xb754f1dc&gt;
+&gt;&gt;&gt; print(list(itertools.permutations(horses)))
+[(1, 2, 3, 4),
+ (1, 2, 4, 3),
+ (1, 3, 2, 4),
+ (1, 3, 4, 2),
+ (1, 4, 2, 3),
+ (1, 4, 3, 2),
+ (2, 1, 3, 4),
+ (2, 1, 4, 3),
+ (2, 3, 1, 4),
+ (2, 3, 4, 1),
+ (2, 4, 1, 3),
+ (2, 4, 3, 1),
+ (3, 1, 2, 4),
+ (3, 1, 4, 2),
+ (3, 2, 1, 4),
+ (3, 2, 4, 1),
+ (3, 4, 1, 2),
+ (3, 4, 2, 1),
+ (4, 1, 2, 3),
+ (4, 1, 3, 2),
+ (4, 2, 1, 3),
+ (4, 2, 3, 1),
+ (4, 3, 1, 2),
+ (4, 3, 2, 1)]
+</code></pre><p>Understanding the inner mechanisms of iteration
+Iteration is a process implying iterables (implementing the <strong>iter</strong>() method) and iterators (implementing the <strong>next</strong>() method). Iterables are any objects you can get an iterator from. Iterators are objects that let you iterate on iterables.</p>
+<p>Original
+<a href="https://stackoverflow.com/questions/231767/what-does-the-yield-keyword-do">https://stackoverflow.com/questions/231767/what-does-the-yield-keyword-do</a></p>
+
         </div>
 
         

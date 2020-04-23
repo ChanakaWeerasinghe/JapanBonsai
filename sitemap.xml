@@ -18,6 +18,11 @@
   </url>
   
   <url>
+    <loc>https://srilankasl.com/blog/stackoverflow/how_can_i_safely_create_a_nested_directory/</loc>
+    <lastmod>2020-04-22T10:07:47+06:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://srilankasl.com/blog/stackoverflow/how_do_i_check_if_an_element_is_hidden_in_jquery/</loc>
     <lastmod>2020-04-22T10:07:47+06:00</lastmod>
   </url>
@@ -30,6 +35,11 @@
   <url>
     <loc>https://srilankasl.com/tags/</loc>
     <lastmod>2020-04-22T10:07:47+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://srilankasl.com/blog/stackoverflow/what_does_the_yield_keyword_do/</loc>
+    <lastmod>2020-04-22T10:00:47+06:00</lastmod>
   </url>
   
   <url>
@@ -193,12 +203,12 @@
   </url>
   
   <url>
-    <loc>https://srilankasl.com/categories/git/</loc>
+    <loc>https://srilankasl.com/tags/git/</loc>
     <lastmod>2019-10-29T10:07:47+06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://srilankasl.com/tags/git/</loc>
+    <loc>https://srilankasl.com/categories/git/</loc>
     <lastmod>2019-10-29T10:07:47+06:00</lastmod>
   </url>
   

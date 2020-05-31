@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en-us"><head>
+  <meta charset="utf-8">
+  <title>Hope| It&#39;s Our blog</title>
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="There are two ways to undo your last commit, depending on whether or not you have already made your commit public (pushed to your remote repository) ">
+  <meta name="author" content="Chanaka Weerasinghe">
+  <meta name="generator" content="Hugo 0.62.2" />
+
+  <!-- plugins -->
+  
+  <link rel="stylesheet" href="https://srilankasl.com/plugins/bootstrap/bootstrap.min.css ">
+  
+  <link rel="stylesheet" href="https://srilankasl.com/plugins/slick/slick.css ">
+  
+  <link rel="stylesheet" href="https://srilankasl.com/plugins/themify-icons/themify-icons.css ">
+  
+  <link rel="stylesheet" href="https://srilankasl.com/plugins/venobox/venobox.css ">
+  
+
+  <!-- Main Stylesheet -->
+  
+  <link rel="stylesheet" href="https://srilankasl.com/scss/style.min.css" media="screen">
+
+  <!--Favicon-->
+  <link rel="shortcut icon" href="https://srilankasl.com/images/favicon.png " type="image/x-icon">
+  <link rel="icon" href="https://srilankasl.com/images/favicon.png " type="image/x-icon">
+
+</head>
+<body>
+<!-- preloader start -->
+<div class="preloader">
+  
+</div>
+<!-- preloader end -->
+<!-- navigation -->
+<header class="navigation">
+  <div class="container">
+    
+    <nav class="navbar navbar-expand-lg navbar-white bg-transparent border-bottom">
+      <a class="navbar-brand mobile-view" href="https://srilankasl.com/"><img class="img-fluid"
+          src="https://srilankasl.com/images/logo.png" alt="Hope| It&#39;s Our blog"></a>
+      <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation">
+        <i class="ti-menu h3"></i>
+      </button>
+
+      <div class="collapse navbar-collapse text-center" id="navigation">
+        <div class="desktop-view">
+          <ul class="navbar-nav mr-auto">
+            
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="ti-facebook"></i></a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="ti-twitter-alt"></i></a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="ti-instagram"></i></a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="ti-github"></i></a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="ti-linkedin"></i></a>
+            </li>
+            
+          </ul>
+        </div>
+
+        <a class="navbar-brand mx-auto desktop-view" href="https://srilankasl.com/"><img class="img-fluid"
+            src="https://srilankasl.com/images/logo.png" alt="Hope| It&#39;s Our blog"></a>
+
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="https://srilankasl.com/"> Home </a>
+          </li>
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://srilankasl.com/about/about">About</a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://srilankasl.com/blog">Post</a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://srilankasl.com/contact">Contact</a>
+          </li>
+          
+          
+        </ul>
+
+        
+        <!-- search -->
+        <div class="search px-4">
+          <button id="searchOpen" class="search-btn"><i class="ti-search"></i></button>
+          <div class="search-wrapper">
+            <form action="https://srilankasl.com//search" class="h-100">
+              <input class="search-box px-4" id="search-query" name="s" type="search" placeholder="Type & Hit Enter...">
+            </form>
+            <button id="searchClose" class="search-close"><i class="ti-close text-dark"></i></button>
+          </div>
+        </div>
+        
+
+        
+      </div>
+    </nav>
+  </div>
+</header>
+<!-- /navigation -->
+
+<section class="section-sm">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 mx-auto">
+        
+        <a href="/categories/computing"
+          class="text-primary">Computing</a>
+        
+        <h2>How do I undo the most recent local commits in Git?</h2>
+        <div class="mb-3 post-meta">
+          <span>By Chanaka Weerasinghe</span>
+          
+          <span class="border-bottom border-primary px-2 mx-1"></span>
+          <span>22 April 2020</span>
+          
+        </div>
+        
+        <img src="https://srilankasl.com/images/post/computing/git.jpeg" class="img-fluid w-100 mb-4" alt="How do I undo the most recent local commits in Git?">
+        
+        <div class="content mb-5">
+          <h5 id="how-to-undo-a-local-commit">How to undo a local commit</h5>
+<p>Let's say you committed locally, but now you want to remove that commit.</p>
+<pre><code>git log
+    commit 1010: bad commit    # Latest commit. This would be called 'HEAD'.
+    commit 1000: good commit   # Second to last commit. This is the one we want.
+</code></pre><p>To restore everything back to the way it was prior to the last commit, we need to reset to the commit before HEAD:</p>
+<pre><code>git reset --soft HEAD^     # Use --soft if you want to keep your changes
+git reset --hard HEAD^     # Use --hard if you don't care about keeping the changes you made
+
+</code></pre><p>Now git log will show that our last commit has been removed.</p>
+<h5 id="how-to-undo-a-public-commit">How to undo a public commit</h5>
+<p>If you have already made your commits public, you will want to create a new commit which will &ldquo;revert&rdquo; the changes you made in your previous commit (current HEAD).</p>
+<p><code>git revert HEAD</code>
+Your changes will now be reverted and ready for you to commit:</p>
+<pre><code>git commit -m 'restoring the file I removed by accident'
+git log
+    commit 102: restoring the file I removed by accident
+    commit 101: removing a file we don't need
+    commit 100: adding a file that we need
+</code></pre><p>####Another aproach</p>
+<p>Undo a commit and redo</p>
+<pre><code>$ git commit -m &quot;Something terribly misguided&quot;             # (1)
+$ git reset HEAD~                                          # (2)
+</code></pre><p>&laquo; edit files as necessary &raquo;                              # (3)</p>
+<pre><code>$ git add ...                                              # (4)
+$ git commit -c ORIG_HEAD                                  # (5)
+</code></pre><p>This does nothing to your working tree (the state of your files on disk), but undoes the commit and leaves the changes you committed unstaged (so they'll appear as &ldquo;Changes not staged for commit&rdquo; in git status, so you'll need to add them again before committing). If you only want to add more changes to the previous commit, or change the commit message1, you could use git reset &ndash;soft HEAD~ instead, which is like git reset HEAD~2 but leaves your existing changes staged.
+Make corrections to working tree files.
+git add anything that you want to include in your new commit.
+Commit the changes, reusing the old commit message. reset copied the old head to .git/ORIG_HEAD; commit with -c ORIG_HEAD will open an editor, which initially contains the log message from the old commit and allows you to edit it. If you do not need to edit the message, you could use the -C option.
+Beware, however, that if you have added any new changes to the index, using commit &ndash;amend will add them to your previous commit.</p>
+<p>If the code is already pushed to your server and you have permissions to overwrite history (rebase) then:</p>
+<pre><code>git push origin master --force
+
+</code></pre><p>Original Source
+<a href="https://stackoverflow.com/questions/927358/how-do-i-undo-the-most-recent-local-commits-in-git?page=1&amp;tab=active#tab-top">https://stackoverflow.com/questions/927358/how-do-i-undo-the-most-recent-local-commits-in-git?page=1&amp;tab=active#tab-top</a></p>
+
+        </div>
+
+        
+        
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="section-sm">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 mx-auto text-center">
+        <h2>Join Our Newsletter</h2>
+        <p class="text-light px-md-5 py-4 border-left border-right border-primary">
+          You can join with us and keep in toch , Discover amazing news.</p>
+        <form action="#" class="row justify-content-center">
+          <div class="input-group col-md-8">
+            <input type="text" class="form-control" placeholder="Your Email Address">
+            <div class="input-group-append">
+              <button class="input-group-text btn btn-primary">Subscribe</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center mb-5">
+        <a href="https://srilankasl.com/"><img src="https://srilankasl.com/images/logo.png" alt="Hope| It&#39;s Our blog"></a>
+      </div>
+      <div class="col-lg-3 col-sm-6 mb-5">
+        <h6 class="mb-4">Contact us</h6>
+        <ul class="list-unstyled">
+          <li class="mb-3"><a class="text-dark" href="tel:&#43;94770888767"><i
+                class="ti-mobile mr-3 text-primary"></i>&#43;94770888767</a></li>
+          <li class="mb-3"><i class="ti-location-pin mr-3 text-primary"></i>Malabe,Colombo,Sri Lanka</li>
+          <li class="mb-3"><a class="text-dark" href="mailto:kalanagayanath92@gmail.com"><i
+                class="ti-email mr-3 text-primary"></i>kalanagayanath92@gmail.com</a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-lg-3 col-sm-6 mb-5">
+        <h6 class="mb-4">Social Contacts</h6>
+        <ul class="list-unstyled">
+          
+          <li class="mb-3"><a class="text-dark" href="#">facebook</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="#">twitter</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="#">instagram</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="#">github</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="#">linkedin</a></li>
+          
+        </ul>
+      </div>
+      <div class="col-lg-3 col-sm-6 mb-5">
+        <h6 class="mb-4">Categories</h6>
+        <ul class="list-unstyled">
+          <li class="mb-3"><a class="text-dark"
+              href="/categories/buddhist">Buddhist</a>
+          </li>
+          <li class="mb-3"><a class="text-dark"
+              href="/categories/computing">Computing</a>
+          </li>
+          <li class="mb-3"><a class="text-dark"
+              href="/categories/git">Git</a>
+          </li>
+          <li class="mb-3"><a class="text-dark"
+              href="/categories/health">Health</a>
+          </li>
+          <li class="mb-3"><a class="text-dark"
+              href="/categories/sri-lanka">Sri lanka</a>
+          </li>
+          <li class="mb-3"><a class="text-dark"
+              href="/categories/stack-overflow">Stack overflow</a>
+          </li>
+          <li class="mb-3"><a class="text-dark"
+              href="/categories/war">War</a>
+          </li>
+          <li class="mb-3"><a class="text-dark"
+              href="/categories/%e0%b6%b8%e0%b7%92%e0%b6%ae%e0%b7%8a%e0%b6%ba%e0%b7%8f%e0%b7%80%e0%b6%b1%e0%b7%8a">මිථ්යාවන්</a>
+          </li>
+          <li class="mb-3"><a class="text-dark"
+              href="/categories/%e0%b7%83%e0%b7%92%e0%b6%82%e0%b7%84%e0%b6%bd">සිංහල</a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-lg-3 col-sm-6 mb-5">
+        <h6 class="mb-4">Quick Links</h6>
+        <ul class="list-unstyled">
+          
+          <li class="mb-3"><a class="text-dark" href="https://srilankasl.com/about/about">About</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="https://srilankasl.com/blog">Post</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="https://srilankasl.com/contact">Contact</a></li>
+          
+        </ul>
+      </div>
+      <div class="col-12 border-top py-4 text-center">
+        
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+  var indexURL = "https://srilankasl.com/index.json"
+</script>
+
+<!-- JS Plugins -->
+
+<script src="https://srilankasl.com/plugins/jQuery/jquery.min.js"></script>
+
+<script src="https://srilankasl.com/plugins/bootstrap/bootstrap.min.js"></script>
+
+<script src="https://srilankasl.com/plugins/slick/slick.min.js"></script>
+
+<script src="https://srilankasl.com/plugins/venobox/venobox.min.js"></script>
+
+<script src="https://srilankasl.com/plugins/search/fuse.min.js"></script>
+
+<script src="https://srilankasl.com/plugins/search/mark.js"></script>
+
+<script src="https://srilankasl.com/plugins/search/search.js"></script>
+
+<!-- Main Script -->
+
+<script src="https://srilankasl.com/js/script.min.js"></script>
+<!-- google analitycs -->
+<script>
+  (function (i, s, o, g, r, a, m) {
+    i['GoogleAnalyticsObject'] = r;
+    i[r] = i[r] || function () {
+      (i[r].q = i[r].q || []).push(arguments)
+    }, i[r].l = 1 * new Date();
+    a = s.createElement(o),
+      m = s.getElementsByTagName(o)[0];
+    a.async = 1;
+    a.src = g;
+    m.parentNode.insertBefore(a, m)
+  })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+  ga('create', 'UA-156905363-1', 'auto');
+  ga('send', 'pageview');
+</script>
+
+
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-4554843855357609"
+     data-ad-slot="12345"></ins>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</body>
+</html>

@@ -188,11 +188,6 @@
   </url>
   
   <url>
-    <loc>https://srilankasl.com/tags/curl/</loc>
-    <lastmod>2019-10-29T10:07:47+06:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://srilankasl.com/blog/health/caring_for_people_with_dementia/</loc>
     <lastmod>2019-10-29T10:07:47+06:00</lastmod>
   </url>
@@ -208,12 +203,12 @@
   </url>
   
   <url>
-    <loc>https://srilankasl.com/tags/git/</loc>
+    <loc>https://srilankasl.com/categories/git/</loc>
     <lastmod>2019-10-29T10:07:47+06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://srilankasl.com/categories/git/</loc>
+    <loc>https://srilankasl.com/tags/git/</loc>
     <lastmod>2019-10-29T10:07:47+06:00</lastmod>
   </url>
   
@@ -419,11 +414,6 @@
   
   <url>
     <loc>https://srilankasl.com/blog/health/pneumonia/</loc>
-    <lastmod>2019-10-29T10:07:47+06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://srilankasl.com/blog/stackoverflow/what_is_the_curl_command_line_syntax_to_do_a_post_request/</loc>
     <lastmod>2019-10-29T10:07:47+06:00</lastmod>
   </url>
   

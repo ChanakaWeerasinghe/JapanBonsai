@@ -58,10 +58,10 @@
     
     <item>
       <title>Centralized vs Decentralized vs Distributed</title>
-      <link>https://srilankasl.com/blog/computing/bonsai_begining/</link>
+      <link>https://srilankasl.com/blog/computing/centralized_systems/</link>
       <pubDate>Mon, 10 Feb 2020 10:07:47 +0600</pubDate>
       
-      <guid>https://srilankasl.com/blog/computing/bonsai_begining/</guid>
+      <guid>https://srilankasl.com/blog/computing/centralized_systems/</guid>
       <description>Centralized Systems  Presence of a global clock One single central unit Single point of failure  Architecture of Centralized Systems  Client Server Architecture  Decentralized Systems  Lack of a global clock Multiple central units (Computers/Nodes/Servers) Dependent failure of components  Architecture of Decentralized Systems  Master/Slave Architecture  </description>
     </item>
     

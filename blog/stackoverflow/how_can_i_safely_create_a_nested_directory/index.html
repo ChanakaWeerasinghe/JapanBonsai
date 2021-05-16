@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta name="description" content="Pretty much everything about this and how to achieve the best support for multiple screens of different sizes and densities is very well documented here. ">
   <meta name="author" content="Chanaka Weerasinghe">
-  <meta name="generator" content="Hugo 0.62.2" />
+  <meta name="generator" content="Hugo 0.83.1" />
 
   <!-- plugins -->
   
@@ -149,7 +149,7 @@ Try os.path.exists, and consider os.makedirs for the creation.</p>
 <pre><code>import os
 if not os.path.exists(directory):
     os.makedirs(directory)
-</code></pre><p>As noted in comments and elsewhere, there's a race condition – if the directory is created between the os.path.exists and the os.makedirs calls, the os.makedirs will fail with an OSError. Unfortunately, blanket-catching OSError and continuing is not foolproof, as it will ignore a failure to create the directory due to other factors, such as insufficient permissions, full disk, etc.
+</code></pre><p>As noted in comments and elsewhere, there&rsquo;s a race condition – if the directory is created between the os.path.exists and the os.makedirs calls, the os.makedirs will fail with an OSError. Unfortunately, blanket-catching OSError and continuing is not foolproof, as it will ignore a failure to create the directory due to other factors, such as insufficient permissions, full disk, etc.
 One option would be to trap the OSError and examine the embedded error code (see Is there a cross-platform way of getting information from Python’s OSError):</p>
 <pre><code>import os, errno
 
@@ -171,7 +171,7 @@ except FileExistsError:
 </code></pre><h5 id="python-35">Python 3.5+:</h5>
 <pre><code>import pathlib
 pathlib.Path('/my/directory').mkdir(parents=True, exist_ok=True) 
-</code></pre><p>pathlib.Path.mkdir as used above recursively creates the directory and does not raise an exception if the directory already exists. If you don't need or want the parents to be created, skip the parents argument.</p>
+</code></pre><p>pathlib.Path.mkdir as used above recursively creates the directory and does not raise an exception if the directory already exists. If you don&rsquo;t need or want the parents to be created, skip the parents argument.</p>
 <h5 id="python-32">Python 3.2+:</h5>
 <p>Using pathlib:
 If you can, install the current pathlib backport named pathlib2. Do not install the older unmaintained backport named pathlib. Next, refer to the Python 3.5+ section above and use it the same.
@@ -291,10 +291,10 @@ distutils.dir_util.mkpath(path)
               href="/categories/war">War</a>
           </li>
           <li class="mb-3"><a class="text-dark"
-              href="/categories/%e0%b6%b8%e0%b7%92%e0%b6%ae%e0%b7%8a%e0%b6%ba%e0%b7%8f%e0%b7%80%e0%b6%b1%e0%b7%8a">මිථ්යාවන්</a>
+              href="/categories/%e0%b6%b8%e0%b7%92%e0%b6%ae%e0%b7%8a%e0%b6%ba%e0%b7%8f%e0%b7%80%e0%b6%b1%e0%b7%8a">ම ථ ය වන</a>
           </li>
           <li class="mb-3"><a class="text-dark"
-              href="/categories/%e0%b7%83%e0%b7%92%e0%b6%82%e0%b7%84%e0%b6%bd">සිංහල</a>
+              href="/categories/%e0%b7%83%e0%b7%92%e0%b6%82%e0%b7%84%e0%b6%bd">ස හල</a>
           </li>
         </ul>
       </div>

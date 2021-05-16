@@ -6,11 +6,7 @@
     <description>Recent content in blog on Hope| It&#39;s Our blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 29 Oct 2019 13:49:23 +0600</lastBuildDate>
-    
-	<atom:link href="https://srilankasl.com/blog/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Tue, 29 Oct 2019 13:49:23 +0600</lastBuildDate><atom:link href="https://srilankasl.com/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Here are some things you need to know as a beginner in the art of bonsai</title>
       <link>https://srilankasl.com/blog/bonsai/bonsai_begining/</link>
@@ -44,7 +40,7 @@
       <pubDate>Wed, 22 Apr 2020 10:07:47 +0600</pubDate>
       
       <guid>https://srilankasl.com/blog/stackoverflow/how_do_i_undo_the_most_recent_local_commits_in_git/</guid>
-      <description>How to undo a local commit Let&#39;s say you committed locally, but now you want to remove that commit.</description>
+      <description>How to undo a local commit Let&amp;rsquo;s say you committed locally, but now you want to remove that commit.</description>
     </item>
     
     <item>
@@ -107,7 +103,7 @@
       <pubDate>Sat, 25 Jan 2020 10:07:47 +0600</pubDate>
       
       <guid>https://srilankasl.com/blog/what_is_typescript_and_why_would_i_use_it_in_place_of_javascript/</guid>
-      <description>Are there other technologies like it? There&#39;s CoffeeScript, but that really serves a different purpose.</description>
+      <description>Are there other technologies like it? There&amp;rsquo;s CoffeeScript, but that really serves a different purpose.</description>
     </item>
     
     <item>
@@ -369,7 +365,7 @@
       <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
       
       <guid>https://srilankasl.com/blog/medical/what_is_barbers_itch/</guid>
-      <description>BARBER&#39;S ITCH, or sycosis barbae, is the name applied to a troublesome condi-tion which affects the beard area in men.</description>
+      <description>BARBER&amp;rsquo;S ITCH, or sycosis barbae, is the name applied to a troublesome condi-tion which affects the beard area in men.</description>
     </item>
     
     <item>
@@ -446,10 +442,10 @@
     
     <item>
       <title>පපුවේ සහ උගුරේ සෙම් සහ ශ්ලේෂ්මල ඉවත් කරන්නේ කෙසේද</title>
-      <link>https://srilankasl.com/blog/%E0%B7%83%E0%B7%99%E0%B6%B8%E0%B7%8A-%E0%B6%BB%E0%B7%9D%E0%B6%9C%E0%B6%BA/</link>
+      <link>https://srilankasl.com/blog/%E0%B7%83%E0%B7%99%E0%B6%B8%E0%B7%8A-%E0%B6%BB%E0%B7%99%E0%B7%8F%E0%B7%8A%E0%B6%9C%E0%B6%BA/</link>
       <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
       
-      <guid>https://srilankasl.com/blog/%E0%B7%83%E0%B7%99%E0%B6%B8%E0%B7%8A-%E0%B6%BB%E0%B7%9D%E0%B6%9C%E0%B6%BA/</guid>
+      <guid>https://srilankasl.com/blog/%E0%B7%83%E0%B7%99%E0%B6%B8%E0%B7%8A-%E0%B6%BB%E0%B7%99%E0%B7%8F%E0%B7%8A%E0%B6%9C%E0%B6%BA/</guid>
       <description>මී පැණි සහ ලෙමන් මී පැණි ප්‍රබල ප්‍රතිබැක්ටීරීය, ප්‍රතිවෛරස් සහ ප්‍රති-දිලීර ගුණ ඇති අතර එය කෝපයට පත් ශ්වසන මාර්ගය සන්සුන් කර ක්ෂණික සහනයක් ලබා දෙයි.</description>
     </item>
     

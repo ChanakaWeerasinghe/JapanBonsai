@@ -6,11 +6,7 @@
     <description>Recent content in git remote on Hope| It&#39;s Our blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 29 Oct 2019 10:07:47 +0600</lastBuildDate>
-    
-	<atom:link href="https://srilankasl.com/tags/git-remote/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Tue, 29 Oct 2019 10:07:47 +0600</lastBuildDate><atom:link href="https://srilankasl.com/tags/git-remote/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How do I delete a Git branch locally and remotely?</title>
       <link>https://srilankasl.com/blog/post-10/</link>

@@ -1,16 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>computing on Hope| It&#39;s Our blog</title>
+    <title>Computing on Hope| It&#39;s Our blog</title>
     <link>https://srilankasl.com/categories/computing/</link>
-    <description>Recent content in computing on Hope| It&#39;s Our blog</description>
+    <description>Recent content in Computing on Hope| It&#39;s Our blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 22 Apr 2020 10:07:47 +0600</lastBuildDate>
-    
-	<atom:link href="https://srilankasl.com/categories/computing/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Wed, 22 Apr 2020 10:07:47 +0600</lastBuildDate><atom:link href="https://srilankasl.com/categories/computing/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How can I safely create a nested directory?</title>
       <link>https://srilankasl.com/blog/stackoverflow/how_can_i_safely_create_a_nested_directory/</link>
@@ -35,7 +31,7 @@
       <pubDate>Wed, 22 Apr 2020 10:07:47 +0600</pubDate>
       
       <guid>https://srilankasl.com/blog/stackoverflow/how_do_i_undo_the_most_recent_local_commits_in_git/</guid>
-      <description>How to undo a local commit Let&#39;s say you committed locally, but now you want to remove that commit.</description>
+      <description>How to undo a local commit Let&amp;rsquo;s say you committed locally, but now you want to remove that commit.</description>
     </item>
     
     <item>

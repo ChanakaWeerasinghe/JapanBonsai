@@ -6,11 +6,7 @@
     <description>Recent content in Stack Overflow on Hope| It&#39;s Our blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 22 Apr 2020 10:07:47 +0600</lastBuildDate>
-    
-	<atom:link href="https://srilankasl.com/tags/stack-overflow/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Wed, 22 Apr 2020 10:07:47 +0600</lastBuildDate><atom:link href="https://srilankasl.com/tags/stack-overflow/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How can I safely create a nested directory?</title>
       <link>https://srilankasl.com/blog/stackoverflow/how_can_i_safely_create_a_nested_directory/</link>
@@ -35,7 +31,7 @@
       <pubDate>Wed, 22 Apr 2020 10:07:47 +0600</pubDate>
       
       <guid>https://srilankasl.com/blog/stackoverflow/how_do_i_undo_the_most_recent_local_commits_in_git/</guid>
-      <description>How to undo a local commit Let&#39;s say you committed locally, but now you want to remove that commit.</description>
+      <description>How to undo a local commit Let&amp;rsquo;s say you committed locally, but now you want to remove that commit.</description>
     </item>
     
     <item>

@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta name="description" content="Pretty much everything about this and how to achieve the best support for multiple screens of different sizes and densities is very well documented here. ">
   <meta name="author" content="Chanaka Weerasinghe">
-  <meta name="generator" content="Hugo 0.62.2" />
+  <meta name="generator" content="Hugo 0.83.1" />
 
   <!-- plugins -->
   
@@ -144,7 +144,7 @@
           <h5 id="resolution">Resolution</h5>
 <p>The total number of physical pixels on a screen. When adding support for multiple screens, applications do not work directly with resolution; applications should be concerned only with screen size and density, as specified by the generalized size and density groups.
 Density-independent pixel (dp)
-A virtual pixel unit that you should use when defining UI layout, to express layout dimensions or position in a density-independent way. The density-independent pixel is equivalent to one physical pixel on a 160 dpi screen, which is the baseline density assumed by the system for a &ldquo;medium&rdquo; density screen. At runtime, the system transparently handles any scaling of the dp units, as necessary, based on the actual density of the screen in use. The conversion of dp units to screen pixels is simple: px = dp * (dpi / 160). For example, on a 240 dpi screen, 1 dp equals 1.5 physical pixels. You should always use dp units when defining your application's UI, to ensure proper display of your UI on screens with different densities.</p>
+A virtual pixel unit that you should use when defining UI layout, to express layout dimensions or position in a density-independent way. The density-independent pixel is equivalent to one physical pixel on a 160 dpi screen, which is the baseline density assumed by the system for a &ldquo;medium&rdquo; density screen. At runtime, the system transparently handles any scaling of the dp units, as necessary, based on the actual density of the screen in use. The conversion of dp units to screen pixels is simple: px = dp * (dpi / 160). For example, on a 240 dpi screen, 1 dp equals 1.5 physical pixels. You should always use dp units when defining your application&rsquo;s UI, to ensure proper display of your UI on screens with different densities.</p>
 <h5 id="px">px</h5>
 <p>Pixels - corresponds to actual pixels on the screen.</p>
 <h5 id="in">in</h5>
@@ -157,63 +157,63 @@ A virtual pixel unit that you should use when defining UI layout, to express lay
 <h5 id="dp-or-dip">dp or dip</h5>
 <p>Density-independent Pixels - an abstract unit that is based on the physical density of the screen. These units are relative to a 160 dpi screen, so one dp is one pixel on a 160 dpi screen. The ratio of dp-to-pixel will change with the screen density, but not necessarily in direct proportion. Note: The compiler accepts both &ldquo;dip&rdquo; and &ldquo;dp&rdquo;, though &ldquo;dp&rdquo; is more consistent with &ldquo;sp&rdquo;.</p>
 <h5 id="sp">sp</h5>
-<p>Scale-independent Pixels - this is like the dp unit, but it is also scaled by the user's font size preference. It is recommended you use this unit when specifying font sizes, so they will be adjusted for both the screen density and user's preference.</p>
+<p>Scale-independent Pixels - this is like the dp unit, but it is also scaled by the user&rsquo;s font size preference. It is recommended you use this unit when specifying font sizes, so they will be adjusted for both the screen density and user&rsquo;s preference.</p>
 <p>From Understanding Density Independence In Androiddiff</p>
 <table>
 <thead>
 <tr>
 <th>Density Bucket</th>
-<th align="left">Screen Density</th>
-<th align="left">Physical Size</th>
-<th align="left">Pixel Size</th>
+<th style="text-align:left">Screen Density</th>
+<th style="text-align:left">Physical Size</th>
+<th style="text-align:left">Pixel Size</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>ldpi</td>
-<td align="left">120 dpi</td>
-<td align="left">0.5 x 0.5 in</td>
-<td align="left">0.5 in * 120 dpi = 60x60 px</td>
+<td style="text-align:left">120 dpi</td>
+<td style="text-align:left">0.5 x 0.5 in</td>
+<td style="text-align:left">0.5 in * 120 dpi = 60x60 px</td>
 </tr>
 <tr>
 <td>mdpi</td>
-<td align="left">160 dpi</td>
-<td align="left">0.5 x 0.5 in</td>
-<td align="left">0.5 in * 160 dpi = 80x80 px</td>
+<td style="text-align:left">160 dpi</td>
+<td style="text-align:left">0.5 x 0.5 in</td>
+<td style="text-align:left">0.5 in * 160 dpi = 80x80 px</td>
 </tr>
 <tr>
 <td>hdpi</td>
-<td align="left">240 dpi</td>
-<td align="left">0.5 x 0.5 in</td>
-<td align="left">0.5 in * 240 dpi = 120x120 px</td>
+<td style="text-align:left">240 dpi</td>
+<td style="text-align:left">0.5 x 0.5 in</td>
+<td style="text-align:left">0.5 in * 240 dpi = 120x120 px</td>
 </tr>
 <tr>
 <td>xhdpi</td>
-<td align="left">320 dpi</td>
-<td align="left">0.5 x 0.5 in</td>
-<td align="left">0.5 in * 320 dpi = 160x160 px</td>
+<td style="text-align:left">320 dpi</td>
+<td style="text-align:left">0.5 x 0.5 in</td>
+<td style="text-align:left">0.5 in * 320 dpi = 160x160 px</td>
 </tr>
 <tr>
 <td>xxhdpi</td>
-<td align="left">480 dpi</td>
-<td align="left">0.5 x 0.5 in</td>
-<td align="left">0.5 in * 480 dpi = 240x240 px</td>
+<td style="text-align:left">480 dpi</td>
+<td style="text-align:left">0.5 x 0.5 in</td>
+<td style="text-align:left">0.5 in * 480 dpi = 240x240 px</td>
 </tr>
 <tr>
 <td>xxxhdpi</td>
-<td align="left">640 dpi</td>
-<td align="left">0.5 x 0.5 in</td>
-<td align="left">0.5 in * 640 dpi = 320x320 px</td>
+<td style="text-align:left">640 dpi</td>
+<td style="text-align:left">0.5 x 0.5 in</td>
+<td style="text-align:left">0.5 in * 640 dpi = 320x320 px</td>
 </tr>
 </tbody>
 </table>
 <!-- raw HTML omitted -->
 <h5 id="screen-size">Screen size</h5>
-<p>Actual physical size, measured as the screen's diagonal. For simplicity, Android groups all actual screen sizes into four generalized sizes: small, normal, large, and extra-large.</p>
+<p>Actual physical size, measured as the screen&rsquo;s diagonal. For simplicity, Android groups all actual screen sizes into four generalized sizes: small, normal, large, and extra-large.</p>
 <h5 id="screen-density">Screen density</h5>
 <p>The number of pixels within a physical area of the screen; usually referred to as dpi (dots per inch). For example, a &ldquo;low&rdquo; density screen has fewer pixels within a given physical area, compared to a &ldquo;normal&rdquo; or &ldquo;high&rdquo; density screen. For simplicity, Android groups all actual screen densities into six generalized densities: low, medium, high, extra-high, extra-extra-high, and extra-extra-extra-high.</p>
 <h5 id="orientation">Orientation</h5>
-<p>The orientation of the screen from the user's point of view. This is either landscape or portrait, meaning that the screen's aspect ratio is either wide or tall, respectively. Be aware that not only do different devices operate in different orientations by default, but the orientation can change at runtime when the user rotates the device.</p>
+<p>The orientation of the screen from the user&rsquo;s point of view. This is either landscape or portrait, meaning that the screen&rsquo;s aspect ratio is either wide or tall, respectively. Be aware that not only do different devices operate in different orientations by default, but the orientation can change at runtime when the user rotates the device.</p>
 
         </div>
 
@@ -307,10 +307,10 @@ A virtual pixel unit that you should use when defining UI layout, to express lay
               href="/categories/war">War</a>
           </li>
           <li class="mb-3"><a class="text-dark"
-              href="/categories/%e0%b6%b8%e0%b7%92%e0%b6%ae%e0%b7%8a%e0%b6%ba%e0%b7%8f%e0%b7%80%e0%b6%b1%e0%b7%8a">මිථ්යාවන්</a>
+              href="/categories/%e0%b6%b8%e0%b7%92%e0%b6%ae%e0%b7%8a%e0%b6%ba%e0%b7%8f%e0%b7%80%e0%b6%b1%e0%b7%8a">ම ථ ය වන</a>
           </li>
           <li class="mb-3"><a class="text-dark"
-              href="/categories/%e0%b7%83%e0%b7%92%e0%b6%82%e0%b7%84%e0%b6%bd">සිංහල</a>
+              href="/categories/%e0%b7%83%e0%b7%92%e0%b6%82%e0%b7%84%e0%b6%bd">ස හල</a>
           </li>
         </ul>
       </div>

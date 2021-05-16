@@ -8,7 +8,7 @@
   <meta name="description" content="Enums which is allow us to define a set of named constants(Immutable). Using enums we can make it easier to document intent, or create a set of distinct use cases. TypeScript provides both string and numeric enums.
 ">
   <meta name="author" content="Chanaka Weerasinghe">
-  <meta name="generator" content="Hugo 0.62.2" />
+  <meta name="generator" content="Hugo 0.83.1" />
 
   <!-- plugins -->
   
@@ -184,11 +184,11 @@ It is just the same except you used () instead of []. BUT, you cannot perform fo
 0
 1
 4
-</code></pre><p>Here it's a useless example, but it's handy when you know your function will return a huge set of values that you will only need to read once.</p>
+</code></pre><p>Here it&rsquo;s a useless example, but it&rsquo;s handy when you know your function will return a huge set of values that you will only need to read once.</p>
 <p>To master yield, you must understand that when you call the function, the code you have written in the function body does not run. The function only returns the generator object, this is a bit tricky :-)</p>
 <p>Then, your code will continue from where it left off each time for uses the generator.</p>
 <p>Now the hard part:</p>
-<p>The first time the for calls the generator object created from your function, it will run the code in your function from the beginning until it hits yield, then it'll return the first value of the loop. Then, each subsequent call will run another iteration of the loop you have written in the function and return the next value. This will continue until the generator is considered empty, which happens when the function runs without hitting yield. That can be because the loop has come to an end, or because you no longer satisfy an &ldquo;if/else&rdquo;.</p>
+<p>The first time the for calls the generator object created from your function, it will run the code in your function from the beginning until it hits yield, then it&rsquo;ll return the first value of the loop. Then, each subsequent call will run another iteration of the loop you have written in the function and return the next value. This will continue until the generator is considered empty, which happens when the function runs without hitting yield. That can be because the loop has come to an end, or because you no longer satisfy an &ldquo;if/else&rdquo;.</p>
 <p>Your code explained</p>
 <h3 id="generator">Generator:</h3>
 <h5 id="here-you-create-the-method-of-the-node-object-that-will-return-the-generator">Here you create the method of the node object that will return the generator</h5>
@@ -231,7 +231,7 @@ result, candidates = list(), [self]
     candidates.extend(node._get_child_candidates(distance, min_dist, max_dist))
 </code></pre><p>return result
 This code contains several smart parts:</p>
-<p>The loop iterates on a list, but the list expands while the loop is being iterated :-) It's a concise way to go through all these nested data even if it's a bit dangerous since you can end up with an infinite loop. In this case, candidates.extend(node._get_child_candidates(distance, min_dist, max_dist)) exhaust all the values of the generator, but while keeps creating new generator objects which will produce different values from the previous ones since it's not applied on the same node.</p>
+<p>The loop iterates on a list, but the list expands while the loop is being iterated :-) It&rsquo;s a concise way to go through all these nested data even if it&rsquo;s a bit dangerous since you can end up with an infinite loop. In this case, candidates.extend(node._get_child_candidates(distance, min_dist, max_dist)) exhaust all the values of the generator, but while keeps creating new generator objects which will produce different values from the previous ones since it&rsquo;s not applied on the same node.</p>
 <p>The extend() method is a list object method that expects an iterable and adds its values to the list.</p>
 <p>Usually we pass a list to it:</p>
 <pre><code>&gt;&gt;&gt; a = [1, 2]
@@ -241,8 +241,8 @@ This code contains several smart parts:</p>
 [1, 2, 3, 4]
 
 </code></pre><p>But in your code, it gets a generator, which is good because:</p>
-<p>You don't need to read the values twice.
-You may have a lot of children and you don't want them all stored in memory.
+<p>You don&rsquo;t need to read the values twice.
+You may have a lot of children and you don&rsquo;t want them all stored in memory.
 And it works because Python does not care if the argument of a method is a list or not. Python expects iterables so it will work with strings, lists, tuples, and generators! This is called duck typing and is one of the reasons why Python is so cool. But this is another story, for another question&hellip;</p>
 <p>You can stop here, or read a little bit to see an advanced use of a generator:</p>
 <p>Controlling a generator exhaustion</p>
@@ -286,7 +286,7 @@ $100
 <p>Itertools, your best friend
 The itertools module contains special functions to manipulate iterables. Ever wish to duplicate a generator? Chain two generators? Group values in a nested list with a one-liner? Map / Zip without creating another list?</p>
 <p>Then just import itertools.</p>
-<p>An example? Let's see the possible orders of arrival for a four-horse race:</p>
+<p>An example? Let&rsquo;s see the possible orders of arrival for a four-horse race:</p>
 <pre><code>
 &gt;&gt;&gt; horses = [1, 2, 3, 4]
 &gt;&gt;&gt; races = itertools.permutations(horses)
@@ -414,10 +414,10 @@ Iteration is a process implying iterables (implementing the <strong>iter</strong
               href="/categories/war">War</a>
           </li>
           <li class="mb-3"><a class="text-dark"
-              href="/categories/%e0%b6%b8%e0%b7%92%e0%b6%ae%e0%b7%8a%e0%b6%ba%e0%b7%8f%e0%b7%80%e0%b6%b1%e0%b7%8a">මිථ්යාවන්</a>
+              href="/categories/%e0%b6%b8%e0%b7%92%e0%b6%ae%e0%b7%8a%e0%b6%ba%e0%b7%8f%e0%b7%80%e0%b6%b1%e0%b7%8a">ම ථ ය වන</a>
           </li>
           <li class="mb-3"><a class="text-dark"
-              href="/categories/%e0%b7%83%e0%b7%92%e0%b6%82%e0%b7%84%e0%b6%bd">සිංහල</a>
+              href="/categories/%e0%b7%83%e0%b7%92%e0%b6%82%e0%b7%84%e0%b6%bd">ස හල</a>
           </li>
         </ul>
       </div>

@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta name="description" content="There are two ways to undo your last commit, depending on whether or not you have already made your commit public (pushed to your remote repository) ">
   <meta name="author" content="Chanaka Weerasinghe">
-  <meta name="generator" content="Hugo 0.62.2" />
+  <meta name="generator" content="Hugo 0.83.1" />
 
   <!-- plugins -->
   
@@ -142,7 +142,7 @@
         
         <div class="content mb-5">
           <h5 id="how-to-undo-a-local-commit">How to undo a local commit</h5>
-<p>Let's say you committed locally, but now you want to remove that commit.</p>
+<p>Let&rsquo;s say you committed locally, but now you want to remove that commit.</p>
 <pre><code>git log
     commit 1010: bad commit    # Latest commit. This would be called 'HEAD'.
     commit 1000: good commit   # Second to last commit. This is the one we want.
@@ -167,7 +167,7 @@ $ git reset HEAD~                                          # (2)
 </code></pre><p>&laquo; edit files as necessary &raquo;                              # (3)</p>
 <pre><code>$ git add ...                                              # (4)
 $ git commit -c ORIG_HEAD                                  # (5)
-</code></pre><p>This does nothing to your working tree (the state of your files on disk), but undoes the commit and leaves the changes you committed unstaged (so they'll appear as &ldquo;Changes not staged for commit&rdquo; in git status, so you'll need to add them again before committing). If you only want to add more changes to the previous commit, or change the commit message1, you could use git reset &ndash;soft HEAD~ instead, which is like git reset HEAD~2 but leaves your existing changes staged.
+</code></pre><p>This does nothing to your working tree (the state of your files on disk), but undoes the commit and leaves the changes you committed unstaged (so they&rsquo;ll appear as &ldquo;Changes not staged for commit&rdquo; in git status, so you&rsquo;ll need to add them again before committing). If you only want to add more changes to the previous commit, or change the commit message1, you could use git reset &ndash;soft HEAD~ instead, which is like git reset HEAD~2 but leaves your existing changes staged.
 Make corrections to working tree files.
 git add anything that you want to include in your new commit.
 Commit the changes, reusing the old commit message. reset copied the old head to .git/ORIG_HEAD; commit with -c ORIG_HEAD will open an editor, which initially contains the log message from the old commit and allows you to edit it. If you do not need to edit the message, you could use the -C option.
@@ -270,10 +270,10 @@ Beware, however, that if you have added any new changes to the index, using comm
               href="/categories/war">War</a>
           </li>
           <li class="mb-3"><a class="text-dark"
-              href="/categories/%e0%b6%b8%e0%b7%92%e0%b6%ae%e0%b7%8a%e0%b6%ba%e0%b7%8f%e0%b7%80%e0%b6%b1%e0%b7%8a">මිථ්යාවන්</a>
+              href="/categories/%e0%b6%b8%e0%b7%92%e0%b6%ae%e0%b7%8a%e0%b6%ba%e0%b7%8f%e0%b7%80%e0%b6%b1%e0%b7%8a">ම ථ ය වන</a>
           </li>
           <li class="mb-3"><a class="text-dark"
-              href="/categories/%e0%b7%83%e0%b7%92%e0%b6%82%e0%b7%84%e0%b6%bd">සිංහල</a>
+              href="/categories/%e0%b7%83%e0%b7%92%e0%b6%82%e0%b7%84%e0%b6%bd">ස හල</a>
           </li>
         </ul>
       </div>
